@@ -58,6 +58,7 @@ const NewsLetterForm: React.FC = () => {
         setMensaje(data.error || "Error en el registro");
       }
     } catch (error) {
+      console.error(error);
       setMensaje("Error de conexión con el servidor");
     }
   };

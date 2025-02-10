@@ -149,7 +149,7 @@ export default function Home() {
           talleres, <br className="hidden md:block" />
           conferencia y <b>asesorías psicológicas exclusivas</b> para los
           maestros, alumnos y <br className="hidden md:block" />
-          padre de familia."
+          padre de familia.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center">
