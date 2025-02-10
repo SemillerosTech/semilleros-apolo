@@ -13,6 +13,7 @@ import donativo from "../../public/donativo.png";
 import cambiemos from "../../public/cambiemos-al-mundo.png";
 import contactanos from "../../public/contactanos.png";
 import NewsLetterForm from "./components/NewsLetterForm/NewsLetterForm";
+import FloatingElements from "./components/FloatingElements/FloatingElements";
 
 export default function Home() {
   return (
@@ -320,6 +321,8 @@ export default function Home() {
       </section>
 
       <Footer />
+
+      <FloatingElements />
     </>
   );
 }
