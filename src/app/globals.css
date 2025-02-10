@@ -12,9 +12,8 @@
 @font-face {
   font-family: "Antitype";
   src: local("Antitype"),
-    url("../../public/fonts/AnitypeRedwood-1.otf") format("opentype")
-      tech(color-COLRv1),
-    url("../../public/fonts/AnitypeRedwood-1.otf") format("opentype");
+    url("/fonts/AnitypeRedwood-1.otf") format("opentype") tech(color-COLRv1),
+    url("/fonts/AnitypeRedwood-1.otf") format("opentype");
 }
 
 html {
