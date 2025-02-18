@@ -1,5 +1,7 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
+import loader from "../../../../public/loader.svg";
 
 interface FormState {
   nombre: string;
@@ -15,10 +17,11 @@ const NewsLetterForm: React.FC = () => {
     correo: "",
     telefono: "",
     mensaje: "",
-    origen: "Web Semilleros",
+    origen: "Sitio Web Semilleros",
   });
 
   const [mensaje, setMensaje] = useState<string>("");
+  const [loading, setLoading] = useState(false);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -33,15 +36,19 @@ const NewsLetterForm: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setMensaje("");
+    setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:4242/register", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(form),
-      });
+      const res = await fetch(
+        "https://semilleros-lazox-newsletter.onrender.com/register",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
+        }
+      );
 
       const data = await res.json();
 
@@ -54,12 +61,18 @@ const NewsLetterForm: React.FC = () => {
           mensaje: "",
           origen: "Web Semilleros",
         });
+
+        setTimeout(() => {
+          setMensaje("");
+        }, 3000);
       } else {
         setMensaje(data.error || "Error en el registro");
       }
+      setLoading(false);
     } catch (error) {
       console.error(error);
       setMensaje("Error de conexión con el servidor");
+      setLoading(false);
     }
   };
 
@@ -117,7 +130,15 @@ const NewsLetterForm: React.FC = () => {
           type="submit"
           className="text-white bg-main hover:bg-main focus:ring-4 focus:ring-blue-300 rounded-lg text-lg px-5 py-2.5 me-2 mb-2 font-bold"
         >
-          Enviar mensaje
+          {loading === true ? (
+            <Image
+              src={loader}
+              className="animate-spin w-8 mx-auto"
+              alt="Cargando Servicio"
+            />
+          ) : (
+            "Enviar mensaje"
+          )}
         </button>
 
         {mensaje && (

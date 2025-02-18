@@ -75,7 +75,7 @@ const SideNavMobile: React.FC<SideNavMobileProps> = ({
         ))}
 
         {/* Idioma */}
-        <li className="flex justify-center items-center p-4">
+        <li className="flex justify-center items-center p-4 hidden">
           <Image
             src={logoFlag}
             alt="Logo bandera"

@@ -58,7 +58,7 @@ const Header = () => {
           />
 
           <nav className="ml-auto flex items-center text-base">
-            <ul className=" space-x-10 hidden md:flex">
+            <ul className="space-x-10 hidden md:flex">
               <li>
                 <a
                   href="#quienes-somos"
@@ -76,25 +76,47 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="#beneficios">Beneficios</a>
+                <a
+                  href="#beneficios"
+                  className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300"
+                >
+                  Beneficios
+                </a>
               </li>
               <li>
-                <a href="#donativo">Donativo</a>
+                <a
+                  href="#donativo"
+                  className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300"
+                >
+                  Donativo
+                </a>
               </li>
               <li>
-                <a href="#fases">Fases</a>
+                <a
+                  href="#fases"
+                  className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300"
+                >
+                  Fases
+                </a>
               </li>
               <li>
-                <a href="#footer">Contacto</a>
+                <a
+                  href="#footer"
+                  className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300"
+                >
+                  Contacto
+                </a>
               </li>
-              <li className="flex justify-center items-center">
+              <li className="flex justify-center items-center hidden">
                 <Image
                   src={logoFlag}
                   alt="Logo bandera"
                   width={20}
                   className="mr-4"
                 />
-                EN
+                <span className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300">
+                  EN
+                </span>
               </li>
             </ul>
           </nav>

@@ -248,10 +248,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section
-        id="contacto"
-        className="container mx-auto text-center pt-20 hidden"
-      >
+      <section id="contacto" className="container mx-auto text-center pt-20 ">
         <div className="flex flex-col md:flex-row">
           <div className=" md:w-1/2 flex items-end order-2 md:order-1">
             <Image
