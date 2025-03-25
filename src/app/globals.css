@@ -46,6 +46,10 @@ b {
   color: var(--main);
 }
 
+.font-montserrat {
+  font-family: "Montserrat", serif;
+}
+
 @media (min-width: 768px) {
   body {
     font-size: 1.25rem;
@@ -55,6 +59,11 @@ b {
   h2 {
     font-size: 4rem;
   }
+}
+
+.bg-consultorio {
+  background: transparent url("../../public//consultorio.jpg") no-repeat center
+    center/ cover;
 }
 
 /* ANIMATIONS */
