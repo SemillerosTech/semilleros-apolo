@@ -4,7 +4,6 @@ import "animate.css";
 import React, { useState } from "react";
 import Image from "next/image";
 import menu from "../../../../../public/icons/menu-ham.svg";
-import logoDesktop from "../../../../../public/logo-semilleros-apaizado.svg";
 import logoFlag from "../../../../../public/usa-flag.svg";
 import Link from "next/link";
 
