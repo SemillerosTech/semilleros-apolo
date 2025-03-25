@@ -1,11 +1,9 @@
 import React from "react";
 import "./rosa-adelaida.css";
 import { Metadata } from "next";
-import Header from "../layout/Header/Header";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
 import Link from "next/link";
 import HeaderRosa from "./layout/HeaderRosa/HeaderRosa";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Rosa Adelaida - Logoterapia",
