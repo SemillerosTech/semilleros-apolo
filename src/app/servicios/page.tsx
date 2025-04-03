@@ -12,7 +12,7 @@ const page = () => {
       <h1>Servicios</h1>
 
       <article className="fixed bottom-0 left-0 w-full flex flex-col">
-        <div className="bg-amber-400 p-2 text-center font-bold">
+        <div className="bg-[var(--secondary)] text-white p-2 text-center font-bold">
           Para máyor información
         </div>
         <div className="flex w-full">
@@ -48,11 +48,11 @@ const page = () => {
             }
             target="_blank"
             rel="noopener noreferrer"
-            className="w-1/2 bg-[var(--complement)] text-black p-2 text-center flex items-center justify-center"
+            className="w-1/2 bg-[var(--main)] text-white p-2 text-center flex items-center justify-center"
           >
             <FontAwesomeIcon
               icon={faLocationDot}
-              className="text-black mr-2 text-xl max-w-4"
+              className="text-white mr-2 text-xl max-w-4"
             />
             Ubicación
           </Link>
