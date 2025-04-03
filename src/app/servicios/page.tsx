@@ -9,7 +9,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 const page = () => {
   return (
     <>
-      <h1>Servicios</h1>
+      <h1>Servicios Semilleros</h1>
 
       <article className="fixed bottom-0 left-0 w-full flex flex-col">
         <div className="bg-[var(--secondary)] text-white p-2 text-center font-bold">
