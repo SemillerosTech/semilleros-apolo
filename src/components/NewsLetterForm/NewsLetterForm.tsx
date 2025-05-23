@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import loader from "../../../../public/loader.svg";
+import loader from "../../../public/loader.svg";
 
 interface FormState {
   nombre: string;

@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import logoWhite from "../../../../public/logo-white.svg";
-import facebook from "../../../../public/icons/facebook.png";
-import instagram from "../../../../public/icons/instagram.png";
-import x from "../../../../public/icons/x.png";
+import logoWhite from "../../../public/logo-white.svg";
+import facebook from "../../../public/icons/facebook.png";
+import instagram from "../../../public/icons/instagram.png";
+import x from "../../../public/icons/x.png";
 
 const Footer = () => {
   return (

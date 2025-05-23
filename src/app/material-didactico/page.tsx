@@ -5,10 +5,7 @@ import redFrankl from "../../../public/red-frankl.jpg";
 
 const page = () => {
   return (
-    <SubModuleLayout
-      sectionTitle="Materiales complementarios"
-      bannerImg={redFrankl}
-    >
+    <SubModuleLayout sectionTitle="Material didáctico" bannerImg={redFrankl}>
       <ComingSoon />
     </SubModuleLayout>
   );

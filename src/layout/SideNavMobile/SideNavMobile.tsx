@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import logoSidenav from "../../../../public/logo-semilleros.svg";
-import logoFlag from "../../../../public/usa-flag.svg";
+import logoSidenav from "../../../public/logo-semilleros.svg";
+import logoFlag from "../../../public/usa-flag.svg";
 
 interface SideNavMobileProps {
   isOpen?: boolean; // Prop opcional para control externo

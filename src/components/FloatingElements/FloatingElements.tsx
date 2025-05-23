@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import whatsapp from "../../../../public/whatsapp.svg";
+import whatsapp from "../../../public/whatsapp.svg";
 
 const FloatingElements = () => {
   return (

@@ -1,7 +1,7 @@
 import "animate.css";
 import Image from "next/image";
-import Footer from "./layout/Footer/Footer";
-import Header from "./layout/Header/Header";
+import Footer from "../layout/Footer/Footer";
+import Header from "../layout/Header/Header";
 import banner from "../../public/semilleros-de-sentido-logo-terapia-en-accion-banner.jpg";
 import bannerMobile from "../../public/banner-mobile.jpg";
 import quienesomos from "../../public/quienes-somos-logoterapia.png";
@@ -12,8 +12,8 @@ import beneficios from "../../public/beneficios-para-el-alumno.png";
 import donativo from "../../public/donativo.png";
 import cambiemos from "../../public/cambiemos-al-mundo.png";
 import contactanos from "../../public/contactanos.png";
-import NewsLetterForm from "./components/NewsLetterForm/NewsLetterForm";
-import FloatingElements from "./components/FloatingElements/FloatingElements";
+import NewsLetterForm from "../components/NewsLetterForm/NewsLetterForm";
+import FloatingElements from "../components/FloatingElements/FloatingElements";
 
 export default function Home() {
   return (
