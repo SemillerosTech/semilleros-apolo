@@ -114,7 +114,7 @@ const page = () => {
           </section>
         </div>
 
-        <article className="fixed bottom-0 left-0 w-full flex flex-col">
+        <article className="sticky bottom-0 left-0 w-full flex flex-col">
           <div className="bg-[var(--secondary)] text-white p-2 text-center font-bold">
             Para máyor información
           </div>

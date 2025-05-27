@@ -8,12 +8,14 @@ interface SubModuleLayoutProps {
   children?: ReactNode;
   bannerImg?: any;
   sectionTitle?: string;
+  flip?: boolean;
 }
 
 const SubModuleLayout: React.FC<SubModuleLayoutProps> = ({
   children = "",
   bannerImg = bannerPlacehlder,
   sectionTitle = "Seccion nueva",
+  flip = false,
 }) => {
   return (
     <>
@@ -24,11 +26,13 @@ const SubModuleLayout: React.FC<SubModuleLayoutProps> = ({
             src={bannerImg}
             alt="Banner"
             fill
-            className="object-cover object-center"
+            className={`object-cover object-center ${
+              flip ? "transform scale-x-[-1]" : ""
+            }`}
             priority
           />
         </div>
-        <div className="absolute left-0 bottom-10 px-10 py-1 bg-main rounded-r-full flex justify-end lg:w-[500]">
+        <div className="absolute left-0 bottom-10 px-10 py-1 bg-main rounded-r-full flex justify-end lg:w-auto">
           <h1 className="text-white">{sectionTitle}</h1>
         </div>
       </main>
