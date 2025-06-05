@@ -24,8 +24,8 @@ const page = () => {
             1. Prevención del suicidio infantil y adolescente
           </h2>
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
-            "El que tiene un por qué para vivir, puede soportar casi cualquier
-            cómo"{" "}
+            &quot;El que tiene un por qué para vivir, puede soportar casi
+            cualquier cómo&quot;
             <span className="font-normal">
               (Nietzsche, citado por Frankl, 1946/1991, p. 109)
             </span>
@@ -65,7 +65,7 @@ const page = () => {
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
             "Entre estímulo y respuesta hay un espacio. En ese espacio está
             nuestro poder de elegir nuestra respuesta. En nuestra respuesta yace
-            nuestro crecimiento y nuestra libertad"{" "}
+            nuestro crecimiento y nuestra libertad"
             <span className="font-normal">(Frankl, 2004, p. 179)</span>.
           </blockquote>
           <p>
@@ -81,8 +81,8 @@ const page = () => {
             4. Prevención de la depresión y ansiedad
           </h2>
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
-            "No es la angustia en sí misma lo patológico, sino la actitud
-            incorrecta que adoptamos hacia ella"{" "}
+            &quot;No es la angustia en sí misma lo patológico, sino la actitud
+            incorrecta que adoptamos hacia ella&quot;
             <span className="font-normal">(Frankl, 2003, p. 202)</span>.
           </blockquote>
           <p>
