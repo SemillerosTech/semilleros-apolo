@@ -46,9 +46,9 @@ const page = () => {
             2. Prevención de conductas autodestructivas
           </h2>
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
-            "La libertad del ser humano implica que puede cambiar en cualquier
-            momento" <span className="font-normal">(Frankl, 2004, p. 154)</span>
-            .
+            &quot;La libertad del ser humano implica que puede cambiar en
+            cualquier momento&quot;
+            <span className="font-normal">(Frankl, 2004, p. 154)</span>.
           </blockquote>
           <p>
             Nuestro enfoque ayuda a identificar y transformar conductas como
@@ -63,9 +63,9 @@ const page = () => {
             3. Disminución de la violencia
           </h2>
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
-            "Entre estímulo y respuesta hay un espacio. En ese espacio está
+            &quot;Entre estímulo y respuesta hay un espacio. En ese espacio está
             nuestro poder de elegir nuestra respuesta. En nuestra respuesta yace
-            nuestro crecimiento y nuestra libertad"
+            nuestro crecimiento y nuestra libertad&quot;
             <span className="font-normal">(Frankl, 2004, p. 179)</span>.
           </blockquote>
           <p>
