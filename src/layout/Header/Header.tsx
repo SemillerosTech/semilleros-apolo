@@ -67,6 +67,10 @@ const Header = () => {
                     href: "/retos-educativos",
                     label: "Retos Educativos",
                   },
+                  {
+                    href: "/fundamentos-existenciales",
+                    label: "Fundamentos existenciales",
+                  },
                   { href: "/alianzas", label: "Alianzas" },
                   { href: "/red-frankl", label: "Red Frankl" },
                   {
