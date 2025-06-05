@@ -62,7 +62,11 @@ const Header = () => {
               <DropDown
                 label="Nosotros"
                 items={[
-                  { href: "/retos-educativos", label: "Retos Educativos" },
+                  { href: "/quienes-somos", label: "¿Quiénes sómos?" },
+                  {
+                    href: "/retos-educativos",
+                    label: "Retos Educativos",
+                  },
                   { href: "/alianzas", label: "Alianzas" },
                   { href: "/red-frankl", label: "Red Frankl" },
                   {
