@@ -24,10 +24,10 @@ const page = () => {
             motivadora esencial en el ser humano.
           </p>
           <blockquote className="italic  text-gray-600 text-base mb-4 border-l-4 border-blue-400 pl-4">
-            "Para Frankl el sentido, la esperanza o la trascendencia son
+            &quot;Para Frankl el sentido, la esperanza o la trascendencia son
             inagotables, las poseemos y sólo es importante reconocer cómo
-            fortalecerlas y poderlas usar o utilizar cuando elijamos hacerlo"
-            (Del Valle Puente, 2023, p. 87).
+            fortalecerlas y poderlas usar o utilizar cuando elijamos
+            hacerlo&quot; (Del Valle Puente, 2023, p. 87).
           </blockquote>
         </div>
 
@@ -42,9 +42,9 @@ const page = () => {
             pensamiento.
           </p>
           <blockquote className="italic  text-gray-600 text-base mb-4 border-l-4 border-blue-400 pl-4">
-            "Esta intuición prelógica, prerreflexiva, que no obedece reglas
+            &quot;Esta intuición prelógica, prerreflexiva, que no obedece reglas
             físicas y que eso es una manifestación espiritual, ellos la tienen
-            muy concreta" (Del Valle Puente, 2023, p. 54).
+            muy concreta&quot; (Del Valle Puente, 2023, p. 54).
           </blockquote>
         </div>
 
@@ -57,10 +57,10 @@ const page = () => {
             relevante para quienes aún están formando su identidad.
           </p>
           <blockquote className="italic  text-gray-600 text-base mb-4 border-l-4 border-blue-400 pl-4">
-            "Frankl nos dice que la parte espiritual es libre, es inmortal, es
-            pre lógica, es pre reflexiva, qué quiere decir con esto, bueno que
-            podemos acceder a ella porque está todo el tiempo ahí" (Del Valle
-            Puente, 2023, p. 33).
+            &quot;Frankl nos dice que la parte espiritual es libre, es inmortal,
+            es pre lógica, es pre reflexiva, qué quiere decir con esto, bueno
+            que podemos acceder a ella porque está todo el tiempo ahí&quot; (Del
+            Valle Puente, 2023, p. 33).
           </blockquote>
         </div>
 
@@ -73,11 +73,11 @@ const page = () => {
             sentido incluso en la pérdida.
           </p>
           <blockquote className="italic  text-gray-600 text-base mb-4 border-l-4 border-blue-400 pl-4">
-            "Que su libertad-responsabilidad, eso me va a tocar a mi como
+            &quot;Que su libertad-responsabilidad, eso me va a tocar a mi como
             logoterapueta: dejar como piezas internas, como los tres pilares
             bien cimentados; que es capaz de ser libre y responder; que va a ser
             capaz de buscar que lo hace feliz en la vida y que va a ser capaz de
-            perder y encontrar el sentido" (Del Valle Puente, 2023, p. 8).
+            perder y encontrar el sentido&quot; (Del Valle Puente, 2023, p. 8).
           </blockquote>
         </div>
       </div>
