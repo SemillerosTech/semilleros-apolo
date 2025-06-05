@@ -5,10 +5,6 @@ import React from "react";
 import whitePhone from "../../../public/white-phone.svg";
 import whiteWhats from "../../../public/white-whatsapp.svg";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import tallerAlumnos from "../../../public/logoteca.jpg";
-import tallerPadres from "../../../public/logoteca.jpg";
-import capacitacionDocentes from "../../../public/logoteca.jpg";
-import evaluacionSeguimiento from "../../../public/logoteca.jpg";
 import SubModuleLayout from "@/layout/SubModuleLayout/SubModuleLayout";
 import servicios from "../../../public/servicios.jpg";
 
@@ -34,14 +30,6 @@ const page = () => {
               Talleres para alumnos
             </h2>
 
-            {/* <Image
-              src={tallerAlumnos}
-              width={100}
-              height={100}
-              alt="Talleres para alumnos"
-              className="w-full my-5 rounded-lg"
-            /> */}
-
             <p className="mb-3">
               Espacios dinámicos y vivenciales donde los alumnos desarrollan
               habilidades socioemocionales, pensamiento crítico y trabajo
@@ -54,14 +42,6 @@ const page = () => {
             <h2 className="text-[var(--secondary)] mb-3">
               Talleres para padres
             </h2>
-
-            {/* <Image
-              src={tallerPadres}
-              width={100}
-              height={100}
-              alt="Talleres para padres"
-              className="w-full my-5 rounded-lg"
-            /> */}
 
             <p className="mb-3">
               Encuentros diseñados para acompañar a las familias en el proceso
@@ -76,14 +56,6 @@ const page = () => {
               Capacitación para docentes
             </h2>
 
-            {/* <Image
-              src={capacitacionDocentes}
-              width={100}
-              height={100}
-              alt="Capacitación para docentes"
-              className="w-full my-5 rounded-lg"
-            /> */}
-
             <p className="mb-3">
               Propuestas de formación orientadas al desarrollo profesional del
               cuerpo docente. Abordamos temáticas clave como la gestión
@@ -96,14 +68,6 @@ const page = () => {
             <h2 className="text-[var(--secondary)] mb-3">
               Evaluación y seguimiento
             </h2>
-
-            {/* <Image
-              src={evaluacionSeguimiento}
-              width={100}
-              height={100}
-              alt="Evaluación y seguimiento"
-              className="w-full my-5 rounded-lg"
-            /> */}
 
             <p className="mb-3">
               Procesos de evaluación individual y grupal que permiten

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React, { ReactNode } from "react";
 import bannerPlacehlder from "../../../public/banner-placeholder.svg";
 import Header from "../Header/Header";
@@ -6,7 +6,8 @@ import Footer from "../Footer/Footer";
 
 interface SubModuleLayoutProps {
   children?: ReactNode;
-  bannerImg?: any;
+  bannerImg?: StaticImageData | string;
+
   sectionTitle?: string;
   flip?: boolean;
 }

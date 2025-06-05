@@ -1,19 +1,20 @@
 import "animate.css";
 import Image from "next/image";
+import Link from "next/link";
 import Footer from "../layout/Footer/Footer";
 import Header from "../layout/Header/Header";
 import banner from "../../public/semilleros-de-sentido-logo-terapia-en-accion-banner.jpg";
 import bannerMobile from "../../public/banner-mobile.jpg";
-import quienesomos from "../../public/quienes-somos-logoterapia.png";
-import objetivo from "../../public/objetivo-logoterapia-semilleros-de-sentido.png";
-import semilla from "../../public/icons/semilla.png";
 import backshapes from "../../public/back-shapes.svg";
-import beneficios from "../../public/beneficios-para-el-alumno.png";
-import donativo from "../../public/donativo.png";
-import cambiemos from "../../public/cambiemos-al-mundo.png";
-import contactanos from "../../public/contactanos.png";
-import NewsLetterForm from "../components/NewsLetterForm/NewsLetterForm";
 import FloatingElements from "../components/FloatingElements/FloatingElements";
+import NewsLetterForm from "../components/NewsLetterForm/NewsLetterForm";
+import contactanos from "../../public/contactanos.png";
+import semilla from "../../public/icons/semilla.png";
+import quienesomos from "../../public/quienes-somos-logoterapia.png";
+import logoterapia from "../../public/que-es-la-logoterapia.png";
+import retosEducativos from "../../public/retos-educativos.png";
+import fundamentosExistenciales from "../../public/fundamentos-existenciales.png";
+import donativo from "../../public/donativo.png";
 
 export default function Home() {
   return (
@@ -39,101 +40,164 @@ export default function Home() {
         />
       </section>
 
-      <section
-        id="quienes-somos"
-        className="container mx-auto text-center py-20 px-10 relative z-0 "
-      >
-        {/* QUIENES SOMOS */}
-        <div id="quienes-somos">
-          <h1>SEMILLEROS DE SENTIDO</h1>
+      {/* SEMILLEROS DE SENTIDO */}
+      <section className="mx-auto container px-5 lg:px-10 py-20">
+        <div className="flex flex-col lg:flex-row items-stretch">
+          <div className="w-full lg:w-1/2 flex items-center justify-center">
+            <Image
+              src={quienesomos}
+              alt="Menu principal"
+              className="w-8/12 mx-auto my-10 drop-shadow-md floating-image"
+            />
+          </div>
 
-          <Image
-            src={quienesomos}
-            alt="Menu principal"
-            className="w-8/12 md:w-3/12 mx-auto my-10 drop-shadow-md floating-image"
-          />
-          <p>
-            Somos una <b>asociación civil en México</b> dedicada a promover los
-            principios de la{" "}
-            <b>
-              Logoterapia de Viktor E. <br className="hidden md:block" />
-              Frankl.
-            </b>{" "}
-            Trabajamos para inspirar la
-            <b> búsqueda de propósito y significado en la vida, </b>
-            enfocándonos <br className="hidden md:block" />
-            especialmente en niños, adolescentes y el ámbito educativo,
-            fomentando el crecimiento personal y el
-            <br className="hidden md:block" /> empoderamiento.
-          </p>
-        </div>
-
-        {/* OBEJTIVO */}
-
-        <div
-          id="objetivo"
-          className="flex flex-col md:flex-row items-center justify-center my-20 gap-10"
-        >
-          <Image
-            src={objetivo}
-            alt="Menu principal"
-            className="w-10/12 md:w-2/6 my-10 floating-image"
-          />
-
-          <div className="w-10/12 md:w-2/6 flex flex-col">
+          <div className="w-full lg:w-1/2 text-center flex items-center justify-center flex-col gap-y-6">
             <Image
               src={semilla}
               alt="Menu principal"
-              className="w-16 mx-auto animate__animated animate__pulse animate__infinite	infinite"
+              className="w-16 mx-auto relative animate__animated animate__pulse animate__infinite	infinite"
             />
-            <h2 className=" my-3">Objetivo del Programa</h2>
-
+            <h2 className="m-0">Semilleros de sentido a.c.</h2>
             <p>
-              Ofrecemos <b>talleres gratuitos</b> dentro del plantel para
-              fortalecer las habilidades socioemocionales de los alumnos,
-              proporcionando herramientas prácticas para gestionar sus
-              emociones.
+              Somos una <b>asociación civil en México</b> dedicada a promover
+              los principios de la <b>Logoterapia de Viktor E. Frankl.</b>
+              Trabajamos para inspirar la
+              <b>búsqueda de propósito y significado en la vida</b>,
+              enfocándonos especialmente en niños, adolescentes y el ámbito
+              educativo, fomentando el crecimiento personal y el empoderamiento.
             </p>
+            <Link href={"/quienes-somos"}>
+              <button className="rounded-full bg-main text-white px-16 py-2 font-bold text-2xl hover:scale-110 transition-all">
+                Más información
+              </button>
+            </Link>
           </div>
         </div>
       </section>
 
-      <section
-        id="beneficios"
-        className="container mx-auto  py-20 relative z-0"
-      >
-        {/* BENEFICIOS */}
-        <div className="flex flex-col md:flex-row  items-center justify-center my-20 gap-10">
-          <div className="w-10/12 md:w-5/12 flex flex-col order-2 md:order-1 text-center md:text-left">
+      {/* QUE ES LA LOGOTERAPIA  */}
+      <section className="mx-auto container px-5 lg:px-10 py-20">
+        <div className="flex flex-col lg:flex-row items-stretch">
+          <div className="w-full lg:w-1/2 text-center flex items-center justify-center flex-col gap-y-6 order-2 lg:order-1">
             <Image
               src={semilla}
               alt="Menu principal"
-              className="w-16 mx-auto md:right-20 relative animate__animated animate__pulse animate__infinite	infinite"
+              className="w-16 mx-auto relative animate__animated animate__pulse animate__infinite	infinite"
             />
-            <h2 className=" my-3">Beneficios para el alumno</h2>
-
-            <ul className=" list-disc marker:text-main">
-              <li>
-                <b>Autoestima y manejo emocional:</b> Fomentar la autoconfianza
-                y el autocontrol.
-              </li>
-
-              <li>
-                <b>Empatía y habilidades sociales:</b> Crear un ambiente de
-                respeto y colaboración.
-              </li>
-              <li>
-                <b>Fortaleza:</b> Prepararlos para enfrentar los desafíos
-                escolares y personales.
-              </li>
-            </ul>
+            <h2 className="m-0">¿Qué es la logoterapia?</h2>
+            <p>
+              <b>La logoterapia es una corriente de la psicología</b> que ayuda
+              a las personas a encontrar sentido en sus vidas, incluso en
+              momentos difíciles. Fue desarrollada por el doctor Viktor Frankl,
+              quien descubrió que, al conectar con un <b>propósito profundo</b>,
+              las personas pueden superar el dolor, la ansiedad o el vacío
+              existencial. En esencia, la logoterapia nos recuerda que siempre
+              podemos elegir cómo responder ante lo que vivimos, y que cada vida
+              tiene un valor único e irrepetible.
+            </p>
+            <Link href={"/logoterapia"}>
+              <button className="rounded-full bg-main text-white px-16 py-2 font-bold text-2xl hover:scale-110 transition-all">
+                Más información
+              </button>
+            </Link>
           </div>
 
-          <Image
-            src={beneficios}
-            alt="Menu principal"
-            className="w-10/12 md:w-2/6 my-10 floating-image order-1 md:order-2"
-          />
+          <div className="w-full lg:w-1/2 flex items-center justify-center order-1 lg:order-2">
+            <Image
+              src={logoterapia}
+              alt="Menu principal"
+              className="w-8/12 mx-auto my-10 drop-shadow-md floating-image"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* RETOS EDUCATIVOS */}
+      <section className="mx-auto container px-5 lg:px-10 py-20">
+        <div className="flex flex-col lg:flex-row items-strech">
+          <div className="w-full lg:w-1/2 flex items-center justify-center">
+            <Image
+              src={retosEducativos}
+              alt="Menu principal"
+              className="w-8/12 mx-auto my-10 drop-shadow-md floating-image"
+            />
+          </div>
+
+          <div className="w-full lg:w-1/2 text-center flex items-center justify-center flex-col gap-y-6">
+            <Image
+              src={semilla}
+              alt="Menu principal"
+              className="w-16 mx-auto relative animate__animated animate__pulse animate__infinite	infinite"
+            />
+            <h2 className="m-0">Retos Educativos</h2>
+            <p>
+              La logoterapia enfrenta varios retos educativos en México, como la
+              <b>falta de formación especializada en docentes</b>, la{" "}
+              <b>
+                dificultad de adaptar sus conceptos a distintos niveles
+                escolares
+              </b>
+              , y las
+              <b>limitaciones de tiempo y recursos en las escuelas</b>. Además,
+              su integración curricular no es sencilla, ya que requiere un
+              <b>
+                cambio de enfoque hacia una pedagogía centrada en el sentido de
+                vida
+              </b>
+              , algo que aún no está plenamente valorado en el
+              <b>sistema educativo tradicional</b>.
+            </p>
+            <Link href={"/retos-educativos"}>
+              <button className="rounded-full bg-main text-white px-16 py-2 font-bold text-2xl hover:scale-110 transition-all">
+                Más información
+              </button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FUNDAMENTOS EXISTENCIALES  */}
+      <section className="mx-auto container px-5 lg:px-10 py-20">
+        <div className="flex flex-col lg:flex-row items-stretch">
+          <div className="w-full lg:w-1/2 text-center flex items-center justify-center flex-col gap-y-6 order-2 lg:order-1">
+            <Image
+              src={semilla}
+              alt="Menu principal"
+              className="w-16 mx-auto relative animate__animated animate__pulse animate__infinite infinite"
+            />
+            <h2 className="m-0">Fundamentos Existenciales</h2>
+            <p>
+              Los fundamentos existenciales de la logoterapia se basan en{" "}
+              <b>tres pilares clave</b> que definen su enfoque hacia la vida y
+              el ser humano: el <b>sentido de la vida</b>, la{" "}
+              <b>libertad de voluntad</b>, y la <b>responsabilidad personal</b>.
+              Según esta perspectiva, cada individuo tiene la capacidad de{" "}
+              <b>descubrir un propósito único</b> que le da dirección y
+              significado a su existencia, incluso en medio del sufrimiento. La
+              logoterapia sostiene que el ser humano no está determinado
+              únicamente por su entorno o circunstancias, sino que posee
+              <b>libertad interior para elegir su actitud</b> frente a cualquier
+              situación. Este enfoque promueve una educación que fomente la
+              <b>reflexión existencial</b>, el{" "}
+              <b>compromiso con valores trascendentes</b>, y la
+              <b>búsqueda activa de sentido</b>, elementos fundamentales para el
+              desarrollo integral de la persona en contextos educativos y
+              sociales cada vez más desafiantes.
+            </p>
+            <Link href={"/fundamentos-existenciales"}>
+              <button className="rounded-full bg-main text-white px-16 py-2 font-bold text-2xl hover:scale-110 transition-all">
+                Más información
+              </button>
+            </Link>
+          </div>
+
+          <div className="w-full lg:w-1/2 flex items-center justify-center order-1 lg:order-2">
+            <Image
+              src={fundamentosExistenciales}
+              alt="Menu principal"
+              className="w-8/12 mx-auto my-10 drop-shadow-md floating-image"
+            />
+          </div>
         </div>
       </section>
 
@@ -196,56 +260,6 @@ export default function Home() {
         <h3 className="text-5xl drop-shadow-md">
           CONTAMOS CON EL APOYO DE EMPRESAS QUE EMPATIZAN CON LA CAUSA{" "}
         </h3>
-      </section>
-
-      <section id="fases" className="container mx-auto text-center py-20 ">
-        <Image
-          src={semilla}
-          alt="Menu principal"
-          className="w-16 mx-auto relative animate__animated animate__pulse animate__infinite	infinite"
-        />
-        <h2 className=" mt-3">FASES DEL PROGRAMA</h2>
-
-        <h3 className="text-4xl mb-20">
-          Etapas del Programa de Apoyo Socioemocional en el Aula
-        </h3>
-
-        <div className="flex flex-col md:flex-row items-center justify-center">
-          <Image
-            src={cambiemos}
-            alt="Menu principal"
-            className="w-full md:w-2/6"
-          />
-
-          <ol className="w-5/6 md:w-1/2 text-left list-decimal marker:text-main ml-5 md:ml-20  text-2xl mt-10 md:mt-auto">
-            <li className="mb-20">
-              {" "}
-              <b> Conferencia de apertura:</b> Presentación de conceptos clave
-              como la logoterapia y su aplicación en el entorno escolar.
-            </li>
-
-            <li className="mb-20">
-              <b> Evaluación inicial: </b>Aplicación de pruebas emocionales para
-              entender el estado socioemocional de los alumnos.
-            </li>
-
-            <li className="mb-20">
-              <b>Talleres para alumnos:</b> 15 sesiones prácticas para que los
-              estudiantes desarrollen habilidades emocionales en el aula.
-            </li>
-
-            <li className="mb-20">
-              <b>Capacitación para docentes: </b>Talleres y asesorías en
-              técnicas de bienestar emocional, comunicación empática y manejo de
-              emociones en el aula.
-            </li>
-
-            <li>
-              <b>Evaluación final y seguimiento:</b> Evaluación de avances y
-              retroalimentación para fortalecer la gestión emocional en el aula.
-            </li>
-          </ol>
-        </div>
       </section>
 
       <section id="contacto" className="container mx-auto text-center pt-20 ">

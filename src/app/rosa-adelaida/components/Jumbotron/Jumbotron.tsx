@@ -45,7 +45,7 @@ const Jumbotron = () => {
 
           <div className="bg-main absolute right-10 top-0 w-[50px] h-[200px] rounded-b-full"></div>
 
-          <h1>Rosa Adelaida Del Valle Puente</h1>
+          <h1>Dra. Rosa Adelaida Del Valle Puente</h1>
           <p className="text-justify">
             Psicóloga clínica desde hace 28 años en su consultorio particular
             donde trabaja con niños, adolescentes y adultos, con enfoque

@@ -1,11 +1,14 @@
 import React from "react";
 import ComingSoon from "@/components/ComingSoon/ComingSoon";
 import SubModuleLayout from "@/layout/SubModuleLayout/SubModuleLayout";
-import redFrankl from "../../../public/red-frankl.jpg";
+import materialDidactico from "../../../public/material-didactico.jpg";
 
 const page = () => {
   return (
-    <SubModuleLayout sectionTitle="Material didáctico" bannerImg={redFrankl}>
+    <SubModuleLayout
+      sectionTitle="Material didáctico"
+      bannerImg={materialDidactico}
+    >
       <ComingSoon />
     </SubModuleLayout>
   );

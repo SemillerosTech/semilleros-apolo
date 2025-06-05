@@ -31,7 +31,7 @@ const HeaderRosa = () => {
               aria-label="Logo desktop "
               className="h-full"
             /> */}
-            <h1>PSIC. ROSA ADELAIDA</h1>
+            <h1>DRA. ROSA ADELAIDA</h1>
 
             <div className="flex">
               <Image
@@ -44,7 +44,7 @@ const HeaderRosa = () => {
           </div>
 
           {/* MENU DESKTOP */}
-          <h1 className="text-5xl my-4">PSIC. ROSA ADELAIDA</h1>
+          <h1 className="text-5xl my-4">DRA. ROSA ADELAIDA</h1>
           {/* <Image
             src={logoDesktop}
             alt="Logo semilleros"
@@ -56,6 +56,14 @@ const HeaderRosa = () => {
           <nav className="ml-auto flex items-center text-base">
             <ul className="space-x-10 hidden md:flex">
               <li>
+                <a
+                  href="/"
+                  className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300"
+                >
+                  {"<<"} Semilleros de Sentido
+                </a>
+              </li>
+              {/* <li>
                 <a
                   href="#quienes-somos"
                   className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300"
@@ -113,7 +121,7 @@ const HeaderRosa = () => {
                 <span className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300">
                   EN
                 </span>
-              </li>
+              </li> */}
             </ul>
           </nav>
 
@@ -124,14 +132,14 @@ const HeaderRosa = () => {
               menuOpen ? "" : "hidden"
             }`}
           >
-            <h1 onClick={() => setMenuOpen(false)}>ROSA ADELAIDA</h1>
+            <h1 onClick={() => setMenuOpen(false)}>DRA. ROSA ADELAIDA</h1>
 
             <nav className="bg-white">
               <ul>
                 <li className="py-2 hover:border-l-8 hover:border-main transition all cursor-pointer ">
-                  <Link href={"/RosaAdelaida"}>Inicio</Link>
+                  <Link href={"/"}>Semilleros de sentido</Link>
                 </li>
-                <li className="py-2 hover:border-l-8 hover:border-main transition all cursor-pointer">
+                {/* <li className="py-2 hover:border-l-8 hover:border-main transition all cursor-pointer">
                   Bibliografía
                 </li>
                 <li className="py-2 hover:border-l-8 hover:border-main transition all cursor-pointer">
@@ -153,7 +161,7 @@ const HeaderRosa = () => {
                 </li>
                 <li className="py-2 hover:border-l-8 hover:border-main transition all cursor-pointer">
                   Semilleros de sentido
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>

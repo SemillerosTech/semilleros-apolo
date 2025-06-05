@@ -13,6 +13,7 @@ import DropDown from "./DropDown/DropDown";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   return (
     <>
@@ -28,11 +29,13 @@ const Header = () => {
             />
 
             <div className="absolute w-full h-[70px] justify-center top-0 left-0 flex z-0">
-              <Image
-                src={logoMobile}
-                alt="Logo semilleros"
-                className="h-[200px]"
-              />
+              <Link href={"/"}>
+                <Image
+                  src={logoMobile}
+                  alt="Logo semilleros"
+                  className="h-[200px]"
+                />
+              </Link>
             </div>
 
             <Image
@@ -43,16 +46,18 @@ const Header = () => {
           </div>
 
           {/* MENU DESKTOP */}
-          <Image
-            src={logoDesktop}
-            alt="Logo semilleros"
-            height={50}
-            className="hidden md:inline m-3"
-          />
+          <Link href={"/"}>
+            <Image
+              src={logoDesktop}
+              alt="Logo semilleros"
+              height={50}
+              className="hidden md:inline m-3"
+            />
+          </Link>
 
           <nav className="ml-auto flex items-center text-base">
             <ul className="hidden md:flex space-x-10 relative z-50">
-              <NavItem href="#inicio" label="Inicio" />
+              <NavItem href="/" label="Inicio" />
 
               <DropDown
                 label="Nosotros"
@@ -60,24 +65,34 @@ const Header = () => {
                   { href: "/retos-educativos", label: "Retos Educativos" },
                   { href: "/alianzas", label: "Alianzas" },
                   { href: "/red-frankl", label: "Red Frankl" },
-                  { href: "/rosa-adelaida", label: "Rosa Adelaida" },
-                  { href: "/brochure", label: "Brochure" },
+                  {
+                    href: "/rosa-adelaida/curriculum",
+                    label: "Dra. Rosa Adelaida",
+                  },
+                  { href: "/beneficios", label: "Beneficios" },
                 ]}
+                isOpen={openDropdown === "nosotros"}
+                onOpen={() => setOpenDropdown("nosotros")}
+                onClose={() => setOpenDropdown(null)}
               />
 
               <DropDown
                 label="Logoterapia"
                 items={[
+                  { href: "/logoterapia", label: "¿Qué es?" },
                   { href: "/recursos", label: "Recursos" },
                   { href: "/material-didactico", label: "Material Didáctico" },
                   { href: "/fichas-tecnicas", label: "Fichas técnicas" },
                 ]}
+                isOpen={openDropdown === "logoterapia"}
+                onOpen={() => setOpenDropdown("logoterapia")}
+                onClose={() => setOpenDropdown(null)}
               />
 
               <NavItem href="/proyectos" label="Proyectos" />
               <NavItem href="/servicios" label="Servicios" />
               <NavItem href="/#contacto" label="Contacto" />
-              <NavItem href="/trazaurus" label="Trazaurus" />
+              {/* <NavItem href="/trazaurus" label="Trazaurus" /> */}
             </ul>
           </nav>
         </div>

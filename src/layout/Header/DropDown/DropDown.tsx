@@ -1,33 +1,32 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 
 interface DropDownProps {
   label: string;
   items: { href: string; label: string }[];
+  isOpen: boolean;
+  onOpen: () => void;
+  onClose: () => void;
 }
 
-const DropDown: React.FC<DropDownProps> = ({ label, items }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
+const DropDown: React.FC<DropDownProps> = ({
+  label,
+  items,
+  isOpen,
+  onOpen,
+  onClose,
+}) => {
   return (
-    <li
-      className="relative group"
-      onMouseOver={() => {
-        setIsOpen(true);
-      }}
-    >
-      <span className="cursor-pointer hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 transition-all duration-300">
+    <li className="relative group" onMouseEnter={onOpen} onMouseLeave={onClose}>
+      <span className="cursor-pointer hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 transition-all duration-300 relative z-10">
         {label}
       </span>
       <div
-        className={`absolute left-0 top-full ${
+        className={`absolute left-0 top-0 ${
           isOpen ? "block" : "hidden"
-        } bg-white shadow-lg rounded-md mt-2 min-w-[200px] z-50`}
-        onMouseLeave={() => {
-          setIsOpen(false);
-        }}
+        } bg-white shadow-lg rounded-md mt-2 min-w-[200px] z-0 pt-8`}
       >
         <ul className="flex flex-col py-2">
           {items.map((item, i) => (

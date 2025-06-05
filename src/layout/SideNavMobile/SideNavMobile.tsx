@@ -51,6 +51,7 @@ const SideNavMobile: React.FC<SideNavMobileProps> = ({
       {/* Menú */}
       <ul className="p-4 text-md text-center">
         {[
+          { href: "/", label: "Inicio" },
           { href: "#quienes-somos", label: "¿Quiénes somos?" },
           { href: "#objetivo", label: "Objetivo del programa" },
           { href: "#beneficios", label: "Beneficios para el alumno" },

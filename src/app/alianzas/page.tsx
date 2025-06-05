@@ -1,11 +1,11 @@
 import React from "react";
 import ComingSoon from "@/components/ComingSoon/ComingSoon";
 import SubModuleLayout from "@/layout/SubModuleLayout/SubModuleLayout";
-import redFrankl from "../../../public/red-frankl.jpg";
+import alianzas from "../../../public/alianzas.jpg";
 
 const page = () => {
   return (
-    <SubModuleLayout sectionTitle="Alianzas" bannerImg={redFrankl}>
+    <SubModuleLayout sectionTitle="Alianzas" bannerImg={alianzas}>
       <ComingSoon />
     </SubModuleLayout>
   );

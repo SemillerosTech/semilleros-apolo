@@ -47,7 +47,7 @@ const page = () => {
             </li>
             <li>
               <strong>Doctorado en Logoterapia</strong> por la Universidad
-              Andragógica Americana (En progreso).
+              Andragógica Americana.
             </li>
           </ul>
 
