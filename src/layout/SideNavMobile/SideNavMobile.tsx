@@ -2,12 +2,13 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import { menu } from "./constants";
 import logoSidenav from "../../../public/logo-semilleros.svg";
 import logoFlag from "../../../public/usa-flag.svg";
 
 interface SideNavMobileProps {
-  isOpen?: boolean; // Prop opcional para control externo
-  onClose?: () => void; // Callback opcional para cerrar
+  isOpen?: boolean;
+  onClose?: () => void;
 }
 
 const SideNavMobile: React.FC<SideNavMobileProps> = ({
@@ -15,17 +16,27 @@ const SideNavMobile: React.FC<SideNavMobileProps> = ({
   onClose,
 }) => {
   const [internalOpen, setInternalOpen] = useState(isOpen);
+  const [menuOpen, setMenuOpen] = useState("");
 
-  // Sincroniza internalOpen con isOpen cuando cambia desde el padre
+  const openMenu = (menu: string) => {};
+
   useEffect(() => {
     setInternalOpen(isOpen);
   }, [isOpen]);
 
   const handleClose = () => {
     if (onClose) {
-      onClose(); // Si se controla desde afuera, llama a la función externa
+      onClose();
     } else {
-      setInternalOpen(false); // Si no, maneja el estado internamente
+      setInternalOpen(false);
+    }
+  };
+
+  const openDropDown = (menu: string) => {
+    if (menuOpen === menu) {
+      setMenuOpen("");
+    } else {
+      setMenuOpen(menu);
     }
   };
 
@@ -50,28 +61,36 @@ const SideNavMobile: React.FC<SideNavMobileProps> = ({
 
       {/* Menú */}
       <ul className="p-4 text-md text-center">
-        {[
-          { href: "/", label: "Inicio" },
-          { href: "#quienes-somos", label: "¿Quiénes somos?" },
-          { href: "#objetivo", label: "Objetivo del programa" },
-          { href: "#beneficios", label: "Beneficios para el alumno" },
-          { href: "#donativo", label: "Donativo para tu escuela" },
-          { href: "#fases", label: "Fases del programa" },
-          { href: "#footer", label: "Contacto" },
-        ].map((item, index) => (
+        {menu.map((item, index) => (
           <li
             key={index}
-            className={`border-b p-4 ${
-              index === 0 ? "border-main font-semibold" : "border-secondary"
-            }`}
+            className={`border-b p-4 border-secondary font-semibold`}
           >
             <a
               href={item.href}
               className="text-secondary"
-              onClick={handleClose}
+              onClick={(e) => {
+                if (item.href !== "#") {
+                  handleClose();
+                } else {
+                  e.preventDefault(); // Evita que salte arriba en la página
+                  openDropDown(item.label);
+                }
+              }}
             >
               {item.label}
             </a>
+            {item.submodules ? (
+              <ul className={menuOpen === item.label ? "" : "hidden"}>
+                {item.submodules.map((sm, index) => (
+                  <li key={index} className="p-4">
+                    <a href={sm.href} className="hover:underline">
+                      {sm.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </li>
         ))}
 
