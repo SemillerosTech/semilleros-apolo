@@ -21,7 +21,7 @@ const SubModuleLayout: React.FC<SubModuleLayoutProps> = ({
   return (
     <>
       <Header />
-      <main className="bg-amber-500 min-h-[500px] w-full relative flex">
+      <main className="bg-cyan-100 min-h-[500px] w-full relative flex">
         <div className="relative w-full max-h-[700px] lg:max-h-[500px] overflow-hidden flex items-center justify-center h-screen lg:h-auto">
           <Image
             src={bannerImg}
