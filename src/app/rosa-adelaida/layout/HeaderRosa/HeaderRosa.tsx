@@ -56,10 +56,11 @@ const HeaderRosa = () => {
           <nav className="ml-auto flex items-center text-base">
             <ul className="space-x-10 hidden md:flex">
               <li>
-                <Link href="/" passHref>
-                  <a className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300">
-                    {"<<"} Semilleros de Sentido
-                  </a>
+                <Link
+                  href="/"
+                  className="hover:font-semibold hover:underline hover:decoration-[#52BECA] underline-offset-8 hover:pb-1 transition-all ease-in-out duration-300"
+                >
+                  {"<<"} Semilleros de Sentido
                 </Link>
               </li>
               {/* <li>
