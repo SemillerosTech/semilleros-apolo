@@ -48,8 +48,8 @@ const page = () => {
 
         <article>
           <h2 className="text-4xl font-semibold mb-3">
-            Los niños no son "adultos incompletos" sino seres plenos con
-            capacidad de encontrar propósito
+            Los niños no son &quot;adultos incompletos&quot; sino seres plenos
+            con capacidad de encontrar propósito
           </h2>
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
             &quot;No es que pierdan el sentido por una cuestión de desarrollo,

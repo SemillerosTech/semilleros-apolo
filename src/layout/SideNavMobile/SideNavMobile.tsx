@@ -18,8 +18,6 @@ const SideNavMobile: React.FC<SideNavMobileProps> = ({
   const [internalOpen, setInternalOpen] = useState(isOpen);
   const [menuOpen, setMenuOpen] = useState("");
 
-  const openMenu = (menu: string) => {};
-
   useEffect(() => {
     setInternalOpen(isOpen);
   }, [isOpen]);
