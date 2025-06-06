@@ -11,7 +11,7 @@ export default function PasswordProtect({
   children: React.ReactNode;
 }) {
   const [accessGranted, setAccessGranted] = useState(false);
-  const [password, setPassword] = useState("J4C4RT42025@.");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
   useEffect(() => {
