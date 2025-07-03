@@ -1,10 +1,15 @@
 import React from "react";
+import "../trazaurus.css";
+import HeaderTrazaurus from "../Layout/Header/HeaderTrazaurus";
+import Link from "next/link";
+import FooterTrazaurus from "../Layout/Footer/FooterTrazaurus";
 
 const page = () => {
   return (
     <>
+      <HeaderTrazaurus />
       <section className="p-6 max-w-6xl mx-auto text-gray-800">
-        <h1 className=" mb-6">Letra A</h1>
+        <h1 className="mb-6 w-screen text-trazaurusBlue">Letra A</h1>
 
         <article className="mb-8">
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
@@ -127,6 +132,17 @@ const page = () => {
           </ul>
         </article>
       </section>
+
+      <section className="p-5">
+        <Link
+          href="/trazaurus"
+          className="block  text-center text-white bg-trazaurusBlue rounded-full py-3 px-10 font-bold mt-4 text-xl w-full"
+        >
+          Volver
+        </Link>
+      </section>
+
+      <FooterTrazaurus />
     </>
   );
 };
