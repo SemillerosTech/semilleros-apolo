@@ -4,7 +4,6 @@ import logo from "../../../../../public/logo-trazaurus.svg";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
   faFacebookF,
   faInstagram,
   faXTwitter,

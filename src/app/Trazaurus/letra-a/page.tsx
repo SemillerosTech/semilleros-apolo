@@ -20,15 +20,16 @@ const page = () => {
               representen cada una de esas emociones.
             </li>
             <li>
-              Además, deberá identificar las letras "A" tanto en mayúscula como
-              en minúscula en los nombres de sus compañeros, así como en su
-              propio nombre completo.
+              Además, deberá identificar las letras &quot;A&quot; tanto en
+              mayúscula como en minúscula en los nombres de sus compañeros, así
+              como en su propio nombre completo.
             </li>
             <li>
               Los alumnos pueden mencionar palabras comunes, incluso si no
-              comienzan con la letra "A". El maestro las escribirá en el
-              pizarrón, resaltando la presencia de la letra "A". De esta manera,
-              se fortalecerá la discriminación auditiva y visual de dicha letra.
+              comienzan con la letra &quot;A&quot;. El maestro las escribirá en
+              el pizarrón, resaltando la presencia de la letra &quot;A&quot;. De
+              esta manera, se fortalecerá la discriminación auditiva y visual de
+              dicha letra.
             </li>
           </ul>
         </article>
@@ -36,7 +37,7 @@ const page = () => {
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
           <p className="mb-2">
-            Juega con tu hijo a identificar todas las letras <strong>A</strong>{" "}
+            Juega con tu hijo a identificar todas las letras <strong>A</strong>
             en sus diferentes formas y tamaños en los letreros, placas, anuncios
             y material digital que tengas a la mano. Escribe el nombre de
             personas que sean importantes para él/ella y que reconozca la letra
