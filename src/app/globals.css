@@ -34,11 +34,19 @@ h2,
 h3,
 h4 {
   font-family: "Antitype";
+  color: var(--secondary);
 }
 
-h1,
+h1 {
+  font-size: 2.5rem;
+}
+
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 b {

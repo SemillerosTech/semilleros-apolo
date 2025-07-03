@@ -7,6 +7,9 @@ export default {
       colors: {
         main: "var(--main)",
         secondary: "var(--secondary)",
+        trazaurusBlue: "var(--tzBlue)",
+        trazaurusPurpple: "var(--tzPurpple)",
+        trazaurusOrange: "var(--tzOrange)",
       },
       fontFamily: {
         seed: "Antitype",
