@@ -41,10 +41,18 @@ const Page = () => {
           />
 
           <p className="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. 
+            <b className="text-trazaurusOrange">TRAZAURUS</b> es una serie
+            educativa creada para acompañar el proceso de lectoescritura de
+            niñas y niños desde un enfoque lúdico, visual y significativo. Está
+            alineada con los principios de la Nueva Escuela Mexicana {"(NEM)"},
+            la cual promueve la vinculación entre el conocimiento académico y la
+            experiencia vivencial de cada comunidad. A través de actividades que
+            pueden compartirse en casa y en el aula, Trazaurus enriquece el
+            desarrollo comunitario y familiar, favoreciendo la participación
+            activa de los estudiantes en su propio aprendizaje. Además,
+            incorpora personajes —los Dinos de Trazaurus— que se convierten en
+            compañeros constantes durante toda la serie, generando conexión
+            emocional y continuidad en su formación.
           </p>
         </section>
 
@@ -60,10 +68,17 @@ const Page = () => {
           />
 
           <p className="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. 
+            La serie <b className="text-trazaurusPurpple">TRAZAURUS </b>
+            fortalece el reconocimiento de vocales y consonantes mediante
+            actividades lúdicas que amplían el vocabulario y la comprensión del
+            entorno. También apoya la identificación y el trazo de todas las
+            letras, en mayúsculas y minúsculas, con indicadores de trazo que
+            guían al estudiante paso a paso. Las actividades están diseñadas
+            para vivenciar el uso de cada letra, reforzando así su aplicación
+            práctica. Además, Trazaurus fomenta la conciencia fonológica a
+            través de la escucha activa y participativa de lecturas asociadas a
+            cada letra, contenidas en el libro de lecturas de la serie,
+            promoviendo así una comprensión más profunda del lenguaje.
           </p>
         </section>
       </div>
