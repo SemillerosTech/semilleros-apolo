@@ -47,5 +47,5 @@ export const consonantes = [
   { letter: "K", link: "/trazaurus/consonantes/letra-k" },
   { letter: "W", link: "/trazaurus/consonantes/letra-w" },
   { letter: "GUE-GUI", link: "/trazaurus/consonantes/letra-gue-gui" },
-  { letter: "GÙE-GUI", link: "/trazaurus/consonantes/letra-gu-e-gui" },
+  { letter: "GÙE-GUI", link: "/trazaurus/consonantes/letra-guue-gui" },
 ];

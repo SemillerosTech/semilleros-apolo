@@ -6,6 +6,8 @@ import rino from "../../../public/trazarus/rino.png";
 import moradin from "../../../public/trazarus/moradin.png";
 import LetterTiles from "./components/LetterTiles/LetterTiles";
 import { consonantes, vocales } from "./constants";
+import Link from "next/link";
+import FooterTrazaurus from "./Layout/Footer/FooterTrazaurus";
 
 const Page = () => {
   return (
@@ -19,12 +21,12 @@ const Page = () => {
           <p className="font-semibold mb-8 text-lg text-white lg:text-xl sm:px-16 lg:px-48">
             Donde la aventura continua, estás en el sentido correcto! <br />
           </p>
-          <a
-            href="#vocales"
+          <Link
             className="text-white bg-trazaurusBlue rounded-full py-3 px-10 font-bold mt-4 text-xl"
+            href="#vocales"
           >
-            Encuentra tu libro aquí
-          </a>
+            Encuentra tu letra aquí
+          </Link>
         </div>
       </section>
 
@@ -83,7 +85,7 @@ const Page = () => {
         </section>
       </div>
 
-      <section className="container mx-auto py-10 px-4">
+      <section id="vocales" className="container mx-auto py-10 px-4">
         <h2 className="mb-4 text-center">
           Selecciona tu <b className="text-trazaurusBlue">VOCAL</b> para
           comenzar
@@ -96,10 +98,10 @@ const Page = () => {
           para comenzar
         </h2>
 
-        <h3 className="text-gray-300 text-center !text-5xl">Próximamente...</h3>
-
-        {/* <LetterTiles letters={consonantes} /> */}
+        <LetterTiles letters={consonantes} />
       </section>
+
+      <FooterTrazaurus />
     </>
   );
 };
