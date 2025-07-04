@@ -1,8 +1,8 @@
 import React from "react";
-import "../trazaurus.css";
-import HeaderTrazaurus from "../Layout/Header/HeaderTrazaurus";
+import "../../trazaurus.css";
+import HeaderTrazaurus from "../../Layout/Header/HeaderTrazaurus";
 import Link from "next/link";
-import FooterTrazaurus from "../Layout/Footer/FooterTrazaurus";
+import FooterTrazaurus from "../../Layout/Footer/FooterTrazaurus";
 
 const page = () => {
   return (

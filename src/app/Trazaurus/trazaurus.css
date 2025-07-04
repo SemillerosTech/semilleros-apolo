@@ -59,6 +59,9 @@ b {
   font-weight: bold;
   font-family: "Vag Rounded" !important;
 }
+a {
+  color: var(--tzPurpple);
+}
 
 .bg-trazaurusbanner {
   background: transparent url("../../../public/trazarus/trazaurus-banner.svg")
