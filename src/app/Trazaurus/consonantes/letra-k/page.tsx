@@ -48,7 +48,7 @@ const page = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Cuento "La Huerta"
+                Cuento &quot;La Huerta&quot;
               </a>
             </li>
             <li>
