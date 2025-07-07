@@ -12,28 +12,39 @@ const page = () => {
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p className="mb-2">
             El tema de las nieves y de las cosas dulces que gustan a los niños
-            de esta edad nos permite comentar la importancia de la nutrición
-            saludable y del consumo de productos libres de conservadores.
-            También fomenta la tradición de consumir productos locales que
-            pueden encontrar en su colonia.
+            de esta edad, nos permite que podamos comentar la importancia de la
+            nutrición saludable y del consumo de productos libres de
+            conservadores, además de continuar con la tradición de consumir
+            productos locales que seguramente tienen en su colonia y que son
+            saludables.
           </p>
           <p>
-            Dibujar lo que les gusta y compartirlo fortalece su expresión,
-            mientras reconocen elementos del lugar donde viven.
+            Platicar sobre estos gustos dulces permite que puedan comenzar a
+            dibujar las cosas que les gustan, permitiendo compartir sus gustos
+            con sus compañeros y con la maestra {"(o)"}. además de que comiencen
+            a reconocer elementos del lugar donde viven.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
           <p className="mb-2">
-            El gusto por lo dulce es común en la infancia, pero el consumo debe
-            ser saludable. Es recomendable retomar productos naturales y
-            locales, y compartirlos en familia. Estos momentos pueden facilitar
-            la expresión emocional.
+            Los gustos de los niños por alimentos dulces es una situación muy
+            natural en la infancia, el consumo de estos productos se ha vuelto
+            un tema de preocupación para la salud de nuestro país; por lo tanto,
+            es importante considerar retomar el consumo de los productos dulces
+            naturales que son saludables y que pueden permitir compartir un
+            momento en familia después de la comida o a media tarde. Inclusive
+            el consumo de algún dulce en medio de una situación triste o
+            complicada puede ayudar a la comunicación de esas emociones y a una
+            mejor comunicación familiar.
           </p>
           <p>
-            Cocinar juntos también fortalece vínculos y permite aprender hábitos
-            saludables.
+            Lo dulce puede ser el momento perfecto para aprender a cocinar o
+            alimentarse saludablemente,
+            <strong>
+              hacerlo en familia es un excelente momento para aprender juntos.
+            </strong>
           </p>
         </article>
 

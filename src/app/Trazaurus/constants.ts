@@ -40,7 +40,7 @@ export const consonantes = [
   { letter: "CH", link: "/trazaurus/consonantes/letra-ch" },
   { letter: "Q", link: "/trazaurus/consonantes/letra-q" },
   { letter: "G", link: "/trazaurus/consonantes/letra-g" },
-  { letter: "Ñ", link: "/trazaurus/consonantes/letra-nn" },
+  { letter: "Ñ", link: "/trazaurus/consonantes/letra-enhe" },
   { letter: "Y", link: "/trazaurus/consonantes/letra-y" },
   { letter: "Z", link: "/trazaurus/consonantes/letra-z" },
   { letter: "X", link: "/trazaurus/consonantes/letra-x" },
