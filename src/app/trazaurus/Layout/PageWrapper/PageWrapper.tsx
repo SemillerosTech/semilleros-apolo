@@ -16,8 +16,8 @@ const PageWrapper = ({ children, backButton }: LetterLayoutProps) => {
   return (
     <div>
       <HeaderTrazaurus />
-      <main className="overflow-hidden flex justify-center items-center rounded-t h-[500px]">
-        <Image src={donosaurs} alt="Imagenes de fondo " className="w-full " />
+      <main className="overflow-hidden flex justify-center items-center rounded-t md:h-[500px]">
+        <Image src={donosaurs} alt="Imagenes de fondo " className="w-full  " />
       </main>
 
       {children}
