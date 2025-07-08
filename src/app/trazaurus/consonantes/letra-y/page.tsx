@@ -11,19 +11,34 @@ const page = () => {
         <article className="mb-8">
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p>
-            Para este momento del ciclo escolar, los niños ya reconocen letras y
-            algunos leen. Se debe aumentar vocabulario con cuentos y
-            narraciones, fomentando que los libros sean compañeros de
-            aprendizaje y compañía.
+            Para este momento del ciclo escolar, muchos niños ya reconocen las
+            letras e inclusive alguno ya puede leer y entender más cosas que
+            otros. Lo importante es aumentar su vocabulario e irles contando
+            cuentos y narraciones como leyendas o mitos para que puedan ir
+            escuchando palabras nuevas y diferentes a ellas. Además de fomentar
+            que los libros son grandes compañeros de aprendizaje y de compañía,
+            que pueden aliviar dolores y dar respuestas, que ofrecen aventuras y
+            hacen que el aburrimiento pueda pasar y aprender desde los dibujos
+            hasta las palabras.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
+          <p className="mb-2">
+            Leer cuentos en casa o tener cuentos que ellos puedan manipular e
+            inclusive dibujar o rayar, no es destruir un libro, muchas veces
+            algunos niños necesitan manipular los objetos y actuar en ellos para
+            poder acercarse a conocerlos y usarlos para aprender. Tener libros
+            de todas las edades favorece que las letras se puedan reconocer de
+            diferentes tamaños, colores y cantidades.
+          </p>
+
           <p>
-            Leer cuentos en casa y permitir manipularlos ayuda a acercar a los
-            niños a los libros. Tener libros variados favorece el reconocimiento
-            de letras y fomenta la comunicación y confianza.
+            Aprender palabras nuevas en esta etapa es importante para poder
+            conocer más del mundo que lo rodea y de acercarse a preguntar a los
+            adultos o niños de su edad sobre lo que desconocen, favoreciendo la
+            comunicación y la confianza para externar sus dudas.
           </p>
         </article>
 

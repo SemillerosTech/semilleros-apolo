@@ -12,17 +12,28 @@ const page = () => {
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p>
             Es una gran oportunidad para revisar aves tradicionales de nuestro
-            país y presentarlas mediante medios digitales para platicar sobre la
-            protección de especies en peligro de extinción.
+            país y presentárselas a los niños a través de medios digitales para
+            que puedan disfrutar de la belleza de los animales y aprovechar para
+            platicar sobre la protección de especies en peligro de extinción.
+            Aunque el tema puede no ser comprensible para todos, de alguna
+            manera es un tema de protección del medio ambiente, algo que
+            definitivamente se irá desarrollando a lo largo de sus vidas.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
+          <p className="mb-2">
+            Este tema es importante para poder comenzar la lectura en casa de
+            textos más grandes y complejos, como son las leyendas o los mitos,
+            de las cuales hay muchísimas en nuestro país. Te dejamos algunas
+            bibliografías para que puedas consultar lecturas o videos que apoyen
+            el conocimiento de la biodiversidad de nuestro país.
+          </p>
+
           <p>
-            Este tema ayuda a comenzar la lectura en casa con textos complejos
-            como leyendas y mitos. También pueden visitar aviarios y zoológicos
-            para aprender sobre conservación.
+            Existen también aviarios y zoológicos donde pueden aprender acerca
+            de la conservación de las especies y su importancia en el planeta.
           </p>
         </article>
 

@@ -1,9 +1,11 @@
 import Link from "next/link";
 import React, { ReactNode } from "react";
+import Image from "next/image";
 import FooterTrazaurus from "../Footer/FooterTrazaurus";
 import HeaderTrazaurus from "../Header/HeaderTrazaurus";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import donosaurs from "../../../../../public/trazarus/alphabeth-dinosaurs.jpg";
 
 interface LetterLayoutProps {
   children: ReactNode;
@@ -14,6 +16,10 @@ const PageWrapper = ({ children, backButton }: LetterLayoutProps) => {
   return (
     <div>
       <HeaderTrazaurus />
+      <main className="overflow-hidden flex justify-center items-center rounded-t h-[500px]">
+        <Image src={donosaurs} alt="Imagenes de fondo " className="w-full " />
+      </main>
+
       {children}
 
       {backButton ? (

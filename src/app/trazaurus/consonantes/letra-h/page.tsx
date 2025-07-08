@@ -12,18 +12,28 @@ const LetraH = () => {
         <article className="mb-8">
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p>
-            Es importante que cada niño pueda elaborar un rehilete con
-            materiales reciclados. Estos juguetes conectan con la tradición y
-            permiten mejorar la psicomotricidad fina.
+            Es importante que cada niño pueda elaborar un rehilete, que es uno
+            de los juguetes tradicionales mexicanos, además de que puedan
+            hacerlo con material reciclado que se pida con anterioridad a los
+            papás. Estos juguetes hechos por ellos permiten que conecten de
+            manera directa con la tradición del país y que puedan mejorar su
+            psicomotricidad fina, así como descubrir todos los materiales que se
+            pueden reciclar o que al menos no contaminan.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
           <p>
-            Investiguen juntos qué juguetes tradicionales existen y en dónde se
-            venden. Es una buena oportunidad para convivir y conocer más sobre
-            la historia y costumbres del país.
+            Investiguen juntos cuantos juguetes mexicanos tradicionales existen
+            y en donde se venden, es importante recordar que estos juguetes
+            conectan con las tradiciones de nuestro país, y que algunos de ellos
+            se pueden realizar en casa con materiales a la mano. Existen varios
+            videos de elaboración y es una excelente oportunidad de que puedan
+            convivir juntos aunque el juguete no quede perfecto, la intención de
+            conocer otras partes de la historia del país y de los gustos de la
+            familia es importante para reforzar su desarrollo escolar y
+            personal.
           </p>
         </article>
 

@@ -11,18 +11,34 @@ const page = () => {
         <article className="mb-8">
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p>
-            Hablar de relaciones con vecinos y experiencias de otras comunidades
-            ayuda a los niños a aumentar vocabulario y fortalecer su desarrollo
-            socioemocional y de aprendizaje.
+            Hablar de las relaciones con otros vecinos o familiares cercanos,
+            así como experiencias de otros pueblos o comunidades, puede ayudar a
+            los niños a relacionar palabras diferentes o a reconocer las
+            experiencias de otras personas como narraciones importantes para no
+            sólo aumentar su vocabulario, sino además fortalecer su desarrollo
+            socio-emocional y de aprendizaje de la riqueza de otras personas
+            cercanas a nuestra vida, de aprender sobre el pasado y de ir
+            aprendiendo cómo cambian las cosas que están cerca de nosotros.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
+          <p className="mb-2">
+            Una actividad importante en esta edad es que el niño está dispuesto
+            a escuchar historias de aventuras o de personas cercanas a las que
+            reconoce con cariño y respeto. Esto permite fortalecer su relación
+            familiar o de cariño con esas personas, haciendo comunidad, pero
+            también favorece sus capacidades de escucha y de atención.
+          </p>
+
           <p>
-            Compartir historias de aventuras o personas cercanas fortalece
-            relaciones y capacidades de escucha. Puedes mostrar dibujos o videos
-            de cambios en el tiempo relacionados con objetos o tecnología.
+            Aunque no lo llegue a pedir, puedes platicarle como padres aquellas
+            experiencias de tu comunidad cuando eras niño, y mostrarle a través
+            de dibujos o videos los cambios que han sucedido en el tiempo, esta
+            actividad puede abarcar objetos, casas, carros, artículos de
+            tecnología, películas, caricaturas, ropa, calzado, etc. La lista
+            depende de aquellas cosas que les llamen la atención como familia.
           </p>
         </article>
 

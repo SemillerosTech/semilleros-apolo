@@ -11,21 +11,29 @@ const page = () => {
         <article className="mb-8">
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p>
-            La lectura lleva más contenido que las que se han manejado hasta
+            La lectura lleva mas contenido que las que se han manejado hasta
             ahora, es importante que los niños comiencen a ver textos más largos
-            para manejar la cantidad de letras a las que se enfrentarán. Esta
-            actividad se puede hacer en grupos para apoyarse y ampliar
-            vocabulario.
+            para poder manejar la cantidad de letras a las que se enfrentarán
+            eventualmente. Esta actividad se puede dividir en grupos para que
+            puedan y empiecen a leer juntos, aunque no comprendan todas las
+            palabras, el objetivo es comenzar a trabajar en parejas o tríos y
+            que puedan apoyarse entre ellos para la lectura y el reconocimiento
+            de las letras. Además de ampliar su vocabulario y comenzar a notar
+            si algunos ya iniciaron la comprensión lectora.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
           <p>
-            Buscar videos sobre productos tradicionales enriquece la cultura e
-            historia de los niños. Combinar lecturas con experiencias cotidianas
-            como comprar o tomar chocolate ayuda a la comprensión y al
-            vocabulario.
+            Buscar videos para conocer acerca de nuestros productos
+            tradicionales es enriquecer la vida cultural e histórica de los
+            niños, los videos pequeños permiten que comprendan rápidamente una
+            historia y qye puedan enriquecerla o comentarla con actividades como
+            ir a comprar chocolate en el mercado, o tomar chocolate en algún
+            lugar cercano a la casa. Combinar las lecturas con experiencias
+            ayuda a la comprensión del mundo en el que viven y aumentan su
+            vocabulario e integración a la familia.
           </p>
         </article>
 

@@ -12,18 +12,34 @@ const page = () => {
         <article className="mb-8">
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p>
-            La lectura de esta letra es más difícil, pero es importante mostrar
-            nuevas palabras para aumentar vocabulario y destreza. Se puede leer
-            en grupo para que se apoyen y practiquen.
+            La lectura de esta letra representa un mayor grado de dificultad a
+            los anteriores pero es importante mostrar nuevas letras y nuevas
+            palabras para ir aumentando el vocabulario y su destreza para la
+            identificación de las letras. Podría ejercitarse el que como docente
+            leas una parte de la lectura y ellos decidan quien quiere leer en
+            voz alta porque ya se siente capaz. También puede ser divertido leer
+            todos juntos para que puedan ir practicando como es leer en grupo,
+            de esta forma aquellos que todavía se les complica la lectura puedan
+            sentirse parte del grupo y no estar evidenciado frente a otros.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
+          <p className="mb-2">
+            Conocer nuevas palabras y leerlas es un reto muy complejo para un
+            niño de preescolar, es importante que comiences a leer con ellos
+            para que se acostumbren a escuchar nuevas cosas, esto permite que
+            puedan avanzar en el proceso de lectoescritura y que cuando entren a
+            la primaria puedan avanzar mucho más.
+          </p>
+
           <p>
-            Leer juntos es un reto complejo, pero importante para avanzar en
-            lectoescritura y autoestima. Leer cuentos en voz alta estimula
-            interés y crea momentos de convivencia.
+            La paciencia en este proceso es importante para fortalecer su
+            autoestima para su desarrollo escolar. Leerle en voz alta y de
+            diferentes cuentos puede ayudarle a estimular su interés por la
+            lectura y compartir momentos juntos. Te dejamos algunos links con
+            ejercicios para que puedas aplicarlos en casa juntos.
           </p>
         </article>
 

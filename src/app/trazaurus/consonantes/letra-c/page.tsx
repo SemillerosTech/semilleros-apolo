@@ -17,26 +17,33 @@ const page = () => {
             importancia en la educación medioambiental.
           </p>
           <p>
-            Puedes apoyarte de láminas de diferentes insectos para que
-            reconozcan no sólo las letras, sino también la importancia de avisar
-            a los adultos en el caso de especies que sí son venenosas. Pueden
-            compartir si las conocen o las han visto en documentales.
+            Puedes apoyarte de láminas de diferentes insectos y que reconozcan
+            no sólo las letras, sino también la importancia de avisar a los
+            adultos en el caso de especies que sí son venenosas. Además de que
+            comenten entre ellos si las conocen o las han visto en documentales
+            especiales, puede ser un buen momento para utilizar un documental
+            corto para aumentar su conocimiento e interés en el tema.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
           <p className="mb-2">
-            Los insectos están presentes en cualquier lugar del país. Son parte
-            esencial del ecosistema. Aprovecha el interés infantil por el tema
-            para usar documentales, revistas o medios interactivos y fomentar su
-            conocimiento.
+            Los insectos están presentes en nuestro hogar en cualquier lugar del
+            país y en cualquier clima, son una parte importante del ecosistema y
+            aunque no son tan reconocidos en ese tema, puede ser un momento
+            oportuno para favorecer el conocimiento del niño y de la familia en
+            el tema de insectos a través de documentales, revistas
+            especializadas en el tema o medios interactivos.
           </p>
           <p>
-            También es importante ayudar a los niños a reconocer insectos
-            peligrosos o que provocan alergias para evitar accidentes. La
-            curiosidad natural de esta etapa puede ser guiada hacia el respeto y
-            la seguridad.
+            Además del reconocimiento del ecosistema, es vital reconocer
+            visualmente aquellos insectos de la zona donde viven que pueden ser
+            venenosos o que los niños pueden presentar alergias, para ayudarlos
+            a no acercarse a ellos y buscar a algún adulto para que pueda
+            resolver la situación. La curiosidad en algunos niños de esta edad
+            los lleva a ser arriesgados y acercarse demasiado sin medir las
+            consecuencias.
           </p>
         </article>
 

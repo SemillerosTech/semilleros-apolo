@@ -12,19 +12,37 @@ const LetraLl = () => {
         <article className="mb-8">
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p>
-            Que los niños dibujen las llaves que conocen nos permite saber qué
+            Que los niños dibujen las llaves que conocen nos permite saber que
             tanta interacción tienen con objetos relacionados con su casa; las
             llaves tienen un objetivo para su uso, es importante ayudarlos a
-            relacionar objetos con objetivos sobre su uso.
+            relacionar objetos con objetivos sobre su uso, esta relación también
+            existe entre el lápiz y las hojas, el sacapuntas y el lápiz. El
+            conocimiento de estos utensilios permite autonomía y mejor manejo no
+            solo motriz, sino también cognitivo.
+          </p>
+
+          <p>
+            Resaltando también que es una posibilidad para aumentar su
+            vocabulario.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
+          <p className="mb-2">
+            Los objetos que nos rodean en casa tienen un uso específico y una
+            manera de usarse. Es recomendable que juguemos con todos estos
+            objetos y que ellos puedan dibujarlos, manipularlos y usarlos para
+            que puedan comprender mejor para qué sirven.
+          </p>
+
           <p>
-            Jugar con los objetos del hogar y que los niños puedan dibujarlos,
-            manipularlos y usarlos les ayuda a comprender mejor para qué sirven.
-            Estimula su vocabulario, su imaginación y curiosidad.
+            <b className="text-trazaurusBlue text-xl">Ejemplos.</b> Los lentes
+            son para ver, las agujas para coser, las ollas para cocinar, los
+            cuchillos para cortar, los focos para ver en la noche. Acercarles
+            estos objetos y dibujarlos o preguntar si reconocen alguna otra
+            relación ayuda a estimular su vocabulario, su imaginación y
+            curiosidad; elementos vitales para su autonomía y crecimiento.
           </p>
         </article>
 

@@ -11,29 +11,39 @@ const page = () => {
         <article className="mb-8">
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p className="mb-2">
-            Los productos que consumimos provienen de diversos procesos. Muchos
-            niños desconocen los pasos para que los alimentos lleguen a su mesa.
-            Iniciar con procesos de origen animal puede facilitar el aprendizaje
-            y ampliar su visión del entorno.
+            Los productos que tenemos a la mano vienen de un proceso específico,
+            muchos de los niños no tienen idea de cuántas cosas suceden para que
+            los objetos o productos que hay en casa lleguen a la mesa. Este
+            conocimiento es lento de aprender y de comprender, comenzamos el
+            aprendizaje con procesos de animales para irlos ayudando a entender
+            el mundo que los rodea y a que reconozcan los procesos que se
+            involucran para que la comida llegue a su mesa.
           </p>
           <p>
-            Explora junto a los niños otros productos derivados de animales que
-            conozcan. Refuerza su curiosidad por el mundo natural mientras
-            continúan con el aprendizaje de las letras.
+            Pueden explorar otros productos que vienen de otros animales que
+            ellos conocen, además de continuar con el aprendizaje de las letras
+            podemos reconocer si ellos saben algo más sobre lo que comen o se
+            usa en casa.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
           <p>
-            Mostrarles a los niños los procesos de producción de los alimentos
-            los ayuda a comprender el esfuerzo detrás de cada producto. Esto
-            fomenta la paciencia y el respeto por los tiempos naturales.
+            Ayudar a los niños a reconocer los procesos para que los alimentos
+            que consumen llegue a la mesa, permite que puedan entender la
+            complejidad de cada uno, además de saber que no es rápido ni
+            sencillo como parece, eso permite también que aprendan a que algunos
+            de esos productos requieren de mayor tiempo, de este modo
+            estimulamos su curiosidad sobre el mundo que los rodea, pero también
+            poco a poco la comprensión y paciencia sobre algunas situaciones
+            cotidianas.
           </p>
           <p>
-            Al hacer las compras, hablen sobre el origen de los productos para
-            ampliar su vocabulario y su conocimiento del entorno. Este ejercicio
-            también puede fortalecer los lazos familiares.
+            Ir platicando sobre cada producto en el super o el mercado va no
+            sólo aumentando su conocimiento sobre el mundo, sino también su
+            vocabulario, ya que muchas palabras todavía le resultan extrañas o
+            poco familiares.
           </p>
         </article>
 

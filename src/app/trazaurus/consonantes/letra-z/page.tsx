@@ -11,19 +11,24 @@ const page = () => {
         <article className="mb-8">
           <h2 className="mb-2">Actividades complementarias para el aula:</h2>
           <p>
-            Las cosas que usamos a diario parecen aparecer mágicamente en casa,
-            pero aprender que llevan un proceso de producción estimula la
-            curiosidad para descubrir cómo se hacen.
+            Las cosas que usamos todos los dias parecen aparecer de manera
+            mágica en la casa, aprender que llevan un proceso de producción
+            puede estimular su curiosidad a descubrir como se hacen otras cosas
+            que usamos a diario.
           </p>
         </article>
 
         <article className="mb-8">
           <h2 className="mb-2">Padres de familia:</h2>
           <p>
-            En esta etapa persiste el pensamiento mágico, que hace creer que las
-            cosas existen por sí solas. Compartir videos de cómo se hacen
-            zapatos, bolsas, platos y otros objetos puede aumentar la curiosidad
-            e interés.
+            En esta etapa aún se conserva mucho del pensamiento mágico, el cual
+            les hace pensar que las cosas que usamos, el dinero y muchos
+            procesos no existen, es decir, las cosas existen por sí solas y
+            parecen creadas de manera rápida y sin proceso. Pueden compartir
+            videos de cómo se hacen los zapatos, las bolsas, los platos, las
+            ollas, etc. cosas que están constantemente en casa. El conocimiento
+            de esto puede ayudar a los niños a aumentar su curiosidad por el
+            mundo y a tener interés en lo que nos rodea.
           </p>
         </article>
 
