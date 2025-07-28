@@ -1,11 +1,11 @@
 import React from "react";
 import SubModuleLayout from "@/layout/SubModuleLayout/SubModuleLayout";
-import fundamentosExistenciales from "../../../public/fichas-tecnicas.jpg";
+import fundamentosExistenciales from "../../../public/fundamentos-banner.jpg";
 
 const page = () => {
   return (
     <SubModuleLayout
-      sectionTitle="Fichas Técnicas"
+      sectionTitle="Fundamentos existenciales"
       bannerImg={fundamentosExistenciales}
     >
       <section className="space-y-10">

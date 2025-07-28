@@ -11,10 +11,10 @@ import servicios from "../../../public/servicios.jpg";
 const page = () => {
   return (
     <>
-      <SubModuleLayout sectionTitle="Servicios" bannerImg={servicios}>
+      <SubModuleLayout sectionTitle="Nuestros Servicios" bannerImg={servicios}>
         <div className="container mx-auto px-4 lg:px-10 py-5 mb-20">
           <section>
-            <h2 className="text-[var(--secondary)] mb-3">Nuestros Servicios</h2>
+            {/* <h2 className="text-[var(--secondary)] mb-3">Nuestros Servicios</h2> */}
 
             <p className="mb-3">
               Acompañamos a estudiantes, padres y docentes con propuestas
@@ -80,7 +80,7 @@ const page = () => {
 
         <article className="sticky bottom-0 left-0 w-full flex flex-col">
           <div className="bg-[var(--secondary)] text-white p-2 text-center font-bold">
-            Para máyor información
+            Para mayor información
           </div>
           <div className="flex w-full">
             <Link
