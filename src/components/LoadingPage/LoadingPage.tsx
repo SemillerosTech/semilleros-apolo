@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import semilla from "../../../public/acorns.png";
+import semilla from "../../../public/cargando.svg";
 
 const LoadingPage = () => {
   const [hide, setHide] = useState(false);
@@ -27,8 +27,7 @@ const LoadingPage = () => {
         hide ? "hidden" : ""
       }`}
     >
-      <Image src={semilla} alt="llámanos" className="w-[200px] animate-pulse" />
-      <h1 className="text-6xl font-bold mt-4">Semilleros de sentido</h1>
+      <Image src={semilla} alt="llámanos" className="w-[400px] animate-pulse" />
     </section>
   );
 };
