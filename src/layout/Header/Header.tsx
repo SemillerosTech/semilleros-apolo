@@ -99,8 +99,8 @@ const Header = () => {
 
               <NavItem href="/proyectos" label="Proyectos" />
               <NavItem href="/servicios" label="Servicios" />
+              <NavItem href="/trazaurus" label="Trazaurus" />
               <NavItem href="/#contacto" label="Contacto" />
-              {/* <NavItem href="/trazaurus" label="Trazaurus" /> */}
             </ul>
           </nav>
         </div>

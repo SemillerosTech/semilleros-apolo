@@ -97,3 +97,32 @@ b {
     top: -0.5em;
   }
 }
+
+@layer components {
+  .floating-image-trazaurus {
+    @apply cursor-pointer lg:relative lg:animate-trazaurus;
+  }
+
+  .floating-image-trazaurus:hover {
+    @apply lg:scale-110 lg:transition-all lg:ease-in-out lg:duration-300;
+  }
+}
+
+/* Animaciones personalizadas */
+@layer utilities {
+  @keyframes trazaurus {
+    0% {
+      top: 6rem;
+    }
+    50% {
+      top: 5rem;
+    }
+    100% {
+      top: 6rem;
+    }
+  }
+
+  .animate-trazaurus {
+    animation: trazaurus 3s infinite;
+  }
+}
