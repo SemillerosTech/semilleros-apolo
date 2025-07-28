@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
 import Link from "next/link";
 import HeaderRosa from "./layout/HeaderRosa/HeaderRosa";
+import placeholder from "../../../public/paceholder450x600.png";
 
 export const metadata: Metadata = {
   title: "Rosa Adelaida - Logoterapia",
@@ -71,7 +72,7 @@ const page = () => {
               className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 "
             >
               <Image
-                src="https://placehold.co/450x600"
+                src={placeholder}
                 alt="Imagen de ejemplo"
                 width={450}
                 height={600}
@@ -95,7 +96,7 @@ const page = () => {
               className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 "
             >
               <Image
-                src="https://placehold.co/450x600"
+                src={placeholder}
                 alt="Imagen de ejemplo"
                 width={450}
                 height={600}
@@ -119,7 +120,7 @@ const page = () => {
               className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 "
             >
               <Image
-                src="https://placehold.co/450x600"
+                src={placeholder}
                 alt="Imagen de ejemplo"
                 width={450}
                 height={600}
@@ -143,7 +144,7 @@ const page = () => {
               className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 "
             >
               <Image
-                src="https://placehold.co/450x600"
+                src={placeholder}
                 alt="Imagen de ejemplo"
                 width={450}
                 height={600}
