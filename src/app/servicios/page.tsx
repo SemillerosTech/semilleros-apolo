@@ -14,8 +14,6 @@ const page = () => {
       <SubModuleLayout sectionTitle="Nuestros Servicios" bannerImg={servicios}>
         <div className="container mx-auto px-4 lg:px-10 py-5 mb-20">
           <section>
-            {/* <h2 className="text-[var(--secondary)] mb-3">Nuestros Servicios</h2> */}
-
             <p className="mb-3">
               Acompañamos a estudiantes, padres y docentes con propuestas
               formativas diseñadas para fortalecer el desarrollo integral.
@@ -26,7 +24,23 @@ const page = () => {
           </section>
 
           <section>
-            <h2 className="text-[var(--secondary)] mb-3">
+            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
+              Psicoterapia individual y familiar
+            </h2>
+
+            <p className="mb-3">
+              Espacios terapéuticos confidenciales diseñados para atender el
+              bienestar emocional de estudiantes, padres y docentes. A través de
+              un enfoque humanista y centrado en la persona, acompañamos
+              procesos de autoconocimiento, manejo de emociones y resolución de
+              conflictos. Nuestro objetivo es fortalecer la salud mental y
+              promover relaciones más sanas y significativas en el entorno
+              educativo y familiar.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
               Talleres para alumnos
             </h2>
 
@@ -39,7 +53,7 @@ const page = () => {
           </section>
 
           <section>
-            <h2 className="text-[var(--secondary)] mb-3">
+            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
               Talleres para padres
             </h2>
 
@@ -52,7 +66,7 @@ const page = () => {
           </section>
 
           <section>
-            <h2 className="text-[var(--secondary)] mb-3">
+            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
               Capacitación para docentes
             </h2>
 
@@ -65,7 +79,7 @@ const page = () => {
           </section>
 
           <section>
-            <h2 className="text-[var(--secondary)] mb-3">
+            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
               Evaluación y seguimiento
             </h2>
 
