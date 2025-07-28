@@ -70,7 +70,7 @@ b {
 }
 
 .bg-consultorio {
-  background: transparent url("../../public//consultorio.jpg") no-repeat center
+  background: transparent url("../../public/consultorio.jpg") no-repeat center
     center/ cover;
 }
 
