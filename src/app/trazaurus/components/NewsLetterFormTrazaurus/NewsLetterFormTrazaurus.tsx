@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import loader from "../../../public/loader.svg";
+import loader from "../../../../../public/loader.svg";
+import "../../trazaurus.css";
 
 interface FormState {
   nombre: string;
@@ -11,13 +12,19 @@ interface FormState {
   origen: string;
 }
 
-const NewsLetterForm: React.FC = () => {
+interface NewsLetterFormTrazaurusProps {
+  onSuccess: () => void;
+}
+
+const NewsLetterFormTrazaurus: React.FC<NewsLetterFormTrazaurusProps> = ({
+  onSuccess,
+}) => {
   const [form, setForm] = useState<FormState>({
     nombre: "",
     correo: "",
     telefono: "",
     mensaje: "",
-    origen: "Sitio Web Semilleros",
+    origen: "Sitio Web Trazaurus",
   });
 
   const [mensaje, setMensaje] = useState<string>("");
@@ -62,8 +69,10 @@ const NewsLetterForm: React.FC = () => {
           origen: "Web Semilleros",
         });
 
+        // Llamar a la función de éxito después de 3 segundos
         setTimeout(() => {
           setMensaje("");
+          onSuccess(); // Esto activará el cambio de vista
         }, 3000);
       } else {
         setMensaje(data.error || "Error en el registro");
@@ -75,7 +84,6 @@ const NewsLetterForm: React.FC = () => {
       setLoading(false);
     }
   };
-
   return (
     <>
       <form
@@ -87,7 +95,7 @@ const NewsLetterForm: React.FC = () => {
           name="nombre"
           value={form.nombre}
           onChange={handleInputChange}
-          className="bg-white border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-main focus:border-main block w-full p-2.5 mb-4"
+          className="bg-white border border-gray-300 text-gray-900 text-base rounded-full focus:ring-main focus:border-main block w-full py-2.5 px-7 mb-4"
           placeholder="Escribe tu nombre"
           required
         />
@@ -100,7 +108,7 @@ const NewsLetterForm: React.FC = () => {
           pattern="\d{10}"
           maxLength={10}
           title="Debe ser un número de 10 dígitos"
-          className="bg-white border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-main focus:border-main block w-full p-2.5 mb-4"
+          className="bg-white border border-gray-300 text-gray-900 text-base rounded-full focus:ring-main focus:border-main block w-full py-2.5 px-7  mb-4"
           placeholder="Escribe tu teléfono"
           required
         />
@@ -112,7 +120,7 @@ const NewsLetterForm: React.FC = () => {
           onChange={handleInputChange}
           pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
           title="Debe ser un correo electrónico válido (ejemplo@dominio.com)"
-          className="bg-white border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-main focus:border-main block w-full p-2.5 mb-4"
+          className="bg-white border border-gray-300 text-gray-900 text-base rounded-full focus:ring-main focus:border-main block w-full py-2.5 px-7  mb-4"
           placeholder="Escribe tu correo electrónico"
           required
         />
@@ -122,13 +130,13 @@ const NewsLetterForm: React.FC = () => {
           value={form.mensaje}
           onChange={handleInputChange}
           placeholder="Déjanos un mensaje"
-          className="bg-white border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-main focus:border-main block w-full p-2.5 mb-4"
+          className="bg-white border border-gray-300 text-gray-900 text-base rounded-3xl focus:ring-main focus:border-main block w-full py-2.5 px-7  mb-4"
           rows={5}
         ></textarea>
 
         <button
           type="submit"
-          className="text-white bg-main hover:bg-main focus:ring-4 focus:ring-blue-300 rounded-lg text-lg px-5 py-2.5 me-2 mb-2 font-bold"
+          className="text-white bg-trazaurusPurpple hover:bg-main focus:ring-4 focus:ring-blue-300 rounded-full text-lg py-2.5 px-7  me-2 mb-2 font-bold"
         >
           {loading === true ? (
             <Image
@@ -149,4 +157,4 @@ const NewsLetterForm: React.FC = () => {
   );
 };
 
-export default NewsLetterForm;
+export default NewsLetterFormTrazaurus;
