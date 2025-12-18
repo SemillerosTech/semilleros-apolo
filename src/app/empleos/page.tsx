@@ -194,9 +194,9 @@ const Page = () => {
 
         {/* Section 4: Jobs & Application */}
         <section className="py-20 max-w-7xl mx-auto px-6" id="vacantes">
-          <div className="flex flex-col lg:flex-row gap-10">
+          <div className="flex flex-col lg:flex-row gap-10 items-start">
             {/* Job List */}
-            <div className="flex flex-col w-full lg:w-5/12 space-y-6">
+            <div className="flex flex-col w-full lg:w-5/12 space-y-6 sticky top-24">
               <h3 className="font-montserrat font-bold text-3xl mb-2 text-[var(--secondary)] flex items-center gap-3">
                  <FontAwesomeIcon icon={faBriefcase} className="text-[var(--main)]" />
                  Vacantes Disponibles
@@ -272,7 +272,7 @@ const Page = () => {
                   </div>
                 </header>
 
-                <div className="p-8 max-h-[70vh] overflow-y-auto custom-scrollbar">
+                <div className="p-8  overflow-y-auto custom-scrollbar">
                     {/* Job Details Content */}
                     <div className="prose max-w-none mb-10 text-gray-600">
                         <div className="mb-8">
