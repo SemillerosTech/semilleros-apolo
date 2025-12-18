@@ -2,8 +2,11 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import SubModuleLayout from "@/layout/SubModuleLayout/SubModuleLayout";
-import empleosBanner from "../../../public/consultorio.jpg";
 import Image from "next/image";
+import empleosBanner from "../../../public/consultorio.jpg";
+import logoteca from "../../../public/logoteca.jpg";
+import logoterapia from "../../../public/logoterapia.jpg";
+
 
 const page = () => {
   const jobs = [
@@ -60,12 +63,12 @@ const page = () => {
           </div>
 
           <div className="w-full lg:w-1/2">
-            <Image src={empleosBanner} alt="Empleos Semilleros de Sentido" />
+            <Image src={logoteca} alt="Empleos Semilleros de Sentido" />
           </div>
         </section>
         <section className="flex flex-col md:flex-row gap-6 py-20 items-center">
           <div className="w-full lg:w-1/2">
-            <Image src={empleosBanner} alt="Empleos Semilleros de Sentido" />
+            <Image src={logoterapia} alt="Empleos Semilleros de Sentido" />
           </div>
 
           <div className="w-full lg:w-1/2">
@@ -142,7 +145,7 @@ const page = () => {
               ))}
             </div>
 
-            <div className="w-7/12 overflow-y-auto overflow-x-hidden max-h-[500px] border-b">
+            <div className="w-7/12  border-b">
               <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-[var(--main)] p-4 flex items-center justify-between">
                 <h2 className="text-3xl font-semibold">{selectedJob.title}</h2>
                 <button className="px-4 py-2 rounded-lg bg-[var(--main)] text-white hover:opacity-90">
