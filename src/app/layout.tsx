@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import FloatingElements from "@/components/FloatingElements/FloatingElements";
 
 export const metadata: Metadata = {
   title: "Semilleros de sentido",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>{children}</body>
+      <body className={`antialiased`}>
+        {children}
+        <FloatingElements />
+      </body>
     </html>
   );
 }

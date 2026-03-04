@@ -6,7 +6,6 @@ import Header from "../layout/Header/Header";
 import banner from "../../public/semilleros-de-sentido-logo-terapia-en-accion-banner.jpg";
 import bannerMobile from "../../public/banner-mobile.jpg";
 import backshapes from "../../public/back-shapes.svg";
-import FloatingElements from "../components/FloatingElements/FloatingElements";
 import NewsLetterForm from "../components/NewsLetterForm/NewsLetterForm";
 import contactanos from "../../public/contactanos.png";
 import semilla from "../../public/icons/semilla.png";
@@ -332,8 +331,6 @@ export default function Home() {
       </section>
 
       <Footer />
-
-      <FloatingElements />
     </>
   );
 }
