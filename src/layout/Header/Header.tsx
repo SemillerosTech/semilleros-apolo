@@ -10,6 +10,12 @@ import logoFlag from "../../../public/usa-flag.svg";
 import SideNavMobile from "../SideNavMobile/SideNavMobile";
 import Link from "next/link";
 import DropDown from "./DropDown/DropDown";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faYoutube,
+  faTiktok,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -56,7 +62,7 @@ const Header = () => {
           </Link>
 
           <nav className="ml-auto flex items-center text-base">
-            <ul className="hidden md:flex space-x-10 relative z-50">
+            <ul className="hidden md:flex space-x-10 relative z-50 items-center">
               <NavItem href="/" label="Inicio" />
 
               <DropDown
@@ -101,6 +107,33 @@ const Header = () => {
               <NavItem href="/servicios" label="Servicios" />
               <NavItem href="/trazaurus" label="Trazaurus" />
               <NavItem href="/#contacto" label="Contacto" />
+
+              <div className="flex gap-4 ml-5">
+                <a
+                  href="https://www.facebook.com/p/Semilleros-de-Sentido-AC-61564845728192/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-main transition-colors"
+                >
+                  <FontAwesomeIcon icon={faFacebook} className="w-5" />
+                </a>
+                <a
+                  href="https://www.youtube.com/@semillerosdesentido"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-main transition-colors"
+                >
+                  <FontAwesomeIcon icon={faYoutube} className="w-5" />
+                </a>
+                <a
+                  href="https://www.tiktok.com/@semillerossilee"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-main transition-colors"
+                >
+                  <FontAwesomeIcon icon={faTiktok} className="w-5" />
+                </a>
+              </div>
             </ul>
           </nav>
         </div>

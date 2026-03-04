@@ -8,6 +8,7 @@ import {
   faInstagram,
   faXTwitter,
   faYoutube,
+  faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
 
 const FooterTrazaurus = () => {
@@ -21,11 +22,34 @@ const FooterTrazaurus = () => {
         Síguenos en:
       </p>
 
-      <div className="w-1/2 mx-auto flex justify-center gap-4 my-5">
-        <FontAwesomeIcon icon={faFacebookF} className="text-white w-[20px]" />
-        <FontAwesomeIcon icon={faXTwitter} className="text-white w-[32px]" />
-        <FontAwesomeIcon icon={faInstagram} className="text-white w-[32px]" />
-        <FontAwesomeIcon icon={faYoutube} className="text-white w-[32px]" />
+      <div className="w-1/2 mx-auto flex justify-center gap-4 my-5 items-center">
+        <a
+          href="https://www.facebook.com/p/Semilleros-de-Sentido-AC-61564845728192/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faFacebookF} className="text-white w-[20px]" />
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faXTwitter} className="text-white w-[32px]" />
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faInstagram} className="text-white w-[32px]" />
+        </a>
+        <a
+          href="https://www.youtube.com/@semillerosdesentido"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faYoutube} className="text-white w-[32px]" />
+        </a>
+        <a
+          href="https://www.tiktok.com/@semillerossilee"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faTiktok} className="text-white w-[32px]" />
+        </a>
       </div>
 
       <p className="text-center">

@@ -5,6 +5,12 @@ import Image from "next/image";
 import { menu } from "./constants";
 import logoSidenav from "../../../public/logo-semilleros.svg";
 import logoFlag from "../../../public/usa-flag.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faYoutube,
+  faTiktok,
+} from "@fortawesome/free-brands-svg-icons";
 
 interface SideNavMobileProps {
   isOpen?: boolean;
@@ -103,6 +109,34 @@ const SideNavMobile: React.FC<SideNavMobileProps> = ({
           EN
         </li>
       </ul>
+
+      {/* Redes Sociales Mobile */}
+      <div className="flex gap-6 mt-8">
+        <a
+          href="https://www.facebook.com/p/Semilleros-de-Sentido-AC-61564845728192/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-secondary text-2xl hover:opacity-80 transition-opacity"
+        >
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
+        <a
+          href="https://www.youtube.com/@semillerosdesentido"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-secondary text-2xl hover:opacity-80 transition-opacity"
+        >
+          <FontAwesomeIcon icon={faYoutube} />
+        </a>
+        <a
+          href="https://www.tiktok.com/@semillerossilee"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-secondary text-2xl hover:opacity-80 transition-opacity"
+        >
+          <FontAwesomeIcon icon={faTiktok} />
+        </a>
+      </div>
     </aside>
   );
 };
