@@ -21,19 +21,27 @@ const FloatingElements = () => {
         />
       </a>
 
-      <div className="fixed bottom-5 left-5 z-50 group flex items-center">
+      <div className="fixed bottom-5 left-5 z-50 group flex flex-col items-center">
+        {/* Tooltip on Hover (Above) */}
+        <div className="absolute bottom-14 left-0 bg-white py-1 px-3 rounded shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap border border-gray-100 text-[#FF0000] font-semibold text-sm">
+          ¡Un propósito espera por ti!
+          <div className="absolute -bottom-1 left-5 w-2 h-2 bg-white rotate-45 border-r border-b border-gray-100"></div>
+        </div>
+
+        {/* Permanent Tooltip (Now Above) - disappearing on hover */}
+        <div className="absolute bottom-14 left-0 bg-white py-1 px-3 rounded shadow-md opacity-100 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none whitespace-nowrap border border-gray-100 text-[#FF0000] font-semibold text-sm">
+          ¡Mira nuestros videos!
+          <div className="absolute -bottom-1 left-5 w-2 h-2 bg-white rotate-45 border-r border-b border-gray-100"></div>
+        </div>
+
         <a
           href="https://www.youtube.com/@semillerosdesentido"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#FF0000] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:scale-110 hover:shadow-xl transition-all duration-300"
+          className="bg-[#FF0000] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:scale-110 hover:shadow-xl transition-all duration-300 animate-heartbeat"
         >
           <FontAwesomeIcon icon={faYoutube} size="lg" />
         </a>
-        <div className="absolute left-16 bg-white py-1 px-3 rounded shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap border border-gray-100 text-[#FF0000] font-semibold text-sm">
-          ¡Un propósito espera por ti!
-          <div className="absolute -left-1 top-1/2 -translate-y-1/2 w-2 h-2 bg-white rotate-45 border-l border-b border-gray-100"></div>
-        </div>
       </div>
 
       <Link href={"/trazaurus"}>
