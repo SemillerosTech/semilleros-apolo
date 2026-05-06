@@ -82,7 +82,16 @@ const SideNavMobile: React.FC<SideNavMobileProps> = ({
                 }
               }}
             >
-              {item.label}
+              {item.logo ? (
+                <Image
+                  src={item.logo}
+                  alt={item.label}
+                  height={40}
+                  className="mx-auto"
+                />
+              ) : (
+                item.label
+              )}
             </a>
             {item.submodules ? (
               <ul className={menuOpen === item.label ? "" : "hidden"}>

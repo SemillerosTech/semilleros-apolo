@@ -1,3 +1,6 @@
+import logoTrazaurus from "../../../public/trazarus/trazaurus-logo.svg";
+import logoSilee from "../../../public/simply-logo-silee.svg";
+
 export const menu = [
   { href: "/", label: "Inicio" },
   {
@@ -22,17 +25,10 @@ export const menu = [
       { href: "/beneficios", label: "Beneficios" },
     ],
   },
-  {
-    href: "#",
-    label: "Logoterapia",
-    submodules: [
-      { href: "/logoterapia", label: "¿Qué es?" },
-      { href: "/recursos", label: "Recursos" },
-      { href: "/material-didactico", label: "Material Didáctico" },
-      { href: "/fichas-tecnicas", label: "Fichas técnicas" },
-    ],
-  },
+  { href: "/logoterapia", label: "Logoterapia" },
   { href: "/proyectos", label: "Proyectos" },
   { href: "/servicios", label: "Servicios" },
+  { href: "/trazaurus", label: "Trazaurus", logo: logoTrazaurus },
+  { href: "/sile", label: "Silé", logo: logoSilee },
   { href: "/#contacto", label: "Contacto" },
 ];

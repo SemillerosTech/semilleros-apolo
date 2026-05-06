@@ -16,6 +16,8 @@ import {
   faYoutube,
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
+import logoTrazaurus from "../../../public/trazarus/trazaurus-logo.svg";
+import logoSilee from "../../../public/simply-logo-silee.svg";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -90,22 +92,30 @@ const Header = () => {
                 onClose={() => setOpenDropdown(null)}
               />
 
-              <DropDown
-                label="Logoterapia"
-                items={[
-                  { href: "/logoterapia", label: "¿Qué es?" },
-                  { href: "/recursos", label: "Recursos" },
-                  { href: "/material-didactico", label: "Material Didáctico" },
-                  { href: "/fichas-tecnicas", label: "Fichas técnicas" },
-                ]}
-                isOpen={openDropdown === "logoterapia"}
-                onOpen={() => setOpenDropdown("logoterapia")}
-                onClose={() => setOpenDropdown(null)}
-              />
+              <NavItem href="/logoterapia" label="Logoterapia" />
 
               <NavItem href="/proyectos" label="Proyectos" />
               <NavItem href="/servicios" label="Servicios" />
-              <NavItem href="/trazaurus" label="Trazaurus" />
+              <li>
+                <Link href="/trazaurus">
+                  <Image
+                    src={logoTrazaurus}
+                    alt="Trazaurus"
+                    height={35}
+                    className="hover:scale-105 transition-transform duration-300"
+                  />
+                </Link>
+              </li>
+              <li>
+                <Link href="/sile">
+                  <Image
+                    src={logoSilee}
+                    alt="Silé"
+                    height={35}
+                    className="hover:scale-105 transition-transform duration-300"
+                  />
+                </Link>
+              </li>
               <NavItem href="/#contacto" label="Contacto" />
 
               <div className="flex gap-4 ml-5">

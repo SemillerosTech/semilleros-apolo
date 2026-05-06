@@ -123,20 +123,6 @@ const page = () => {
               Whatsapp
             </Link>
 
-            <Link
-              href={
-                "https://www.google.com/maps/search/?api=1&query=Calz.+de+Tlalpan+1552,+sineo,+Miravalle,+Benito+Juárez,+03580+Ciudad+de+México,+CDMX"
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-1/2 bg-[var(--main)] text-white p-2 text-center flex items-center justify-center"
-            >
-              <FontAwesomeIcon
-                icon={faLocationDot}
-                className="text-white mr-2 text-xl max-w-4"
-              />
-              Ubicación
-            </Link>
           </div>
         </article>
       </SubModuleLayout>
