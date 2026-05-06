@@ -1,10 +1,8 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import whitePhone from "../../../public/white-phone.svg";
 import whiteWhats from "../../../public/white-whatsapp.svg";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import SubModuleLayout from "@/layout/SubModuleLayout/SubModuleLayout";
 import servicios from "../../../public/servicios.jpg";
 

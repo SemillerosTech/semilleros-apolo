@@ -87,7 +87,7 @@ const SilePage = () => {
         <div className="relative animate__animated animate__fadeInUp animate__delay-4s">
           <div className="absolute inset-0 bg-cyan-50 -rotate-1 rounded-3xl" />
           <blockquote className="relative italic text-3xl text-gray-700 border-l-8 border-[var(--main)] pl-10 py-12 pr-10">
-            "El Método Silé no solo educa la mente, sino que despierta el corazón hacia la búsqueda de aquello que hace que la vida valga la pena ser vivida."
+            &quot;El Método Silé no solo educa la mente, sino que despierta el corazón hacia la búsqueda de aquello que hace que la vida valga la pena ser vivida.&quot;
           </blockquote>
         </div>
       </div>
