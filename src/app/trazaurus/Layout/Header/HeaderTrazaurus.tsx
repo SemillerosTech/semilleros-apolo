@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "../../../../../public/trazarus/trazaurus-logo.svg";
+import logo from "../../../../../public/trazaurus/trazaurus-logo.svg";
 import Link from "next/link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -35,7 +35,7 @@ const HeaderTrazaurus = () => {
           <FontAwesomeIcon icon={faYoutube} className="w-5" />
         </a>
         <a
-          href="https://www.tiktok.com/@semillerossilee."
+          href="https://www.tiktok.com/@semillerossilee"
           target="_blank"
           rel="noopener noreferrer"
           className="text-trazaurusPurpple hover:text-trazaurusOrange transition-colors"

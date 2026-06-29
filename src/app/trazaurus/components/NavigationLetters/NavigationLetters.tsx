@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import rino from "../../../../../public/trazarus/rino.png";
-import moradin from "../../../../../public/trazarus/moradin.png";
+import rino from "../../../../../public/trazaurus/rino.png";
+import moradin from "../../../../../public/trazaurus/moradin.png";
 import { consonantes, vocales } from "../../constants";
 import Link from "next/link";
 import LetterTiles from "../LetterTiles/LetterTiles";

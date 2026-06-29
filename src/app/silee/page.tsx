@@ -4,20 +4,20 @@ import banner from "../../../public/quienes-somos.jpg";
 
 import "animate.css";
 
-const SilePage = () => {
+const SileePage = () => {
   return (
     <SubModuleLayout
-      sectionTitle="Método Silé"
+      sectionTitle="Método SILEE"
       bannerImg={banner}
     >
       <div className="p-6 space-y-16 max-w-5xl mx-auto mb-20">
         <div className="animate__animated animate__fadeInUp">
           <h1 className="text-6xl font-bold text-[var(--secondary)] mb-6">
-            Método Silé: Educación con Sentido
+            Método SILEE: Educación con Sentido
           </h1>
           <div className="h-2 w-32 bg-[var(--main)] rounded-full mb-8" />
           <p className="text-xl leading-relaxed text-gray-700 max-w-3xl">
-            El Método Silé es una propuesta pedagógica innovadora desarrollada por 
+            El Método SILEE es una propuesta pedagógica innovadora desarrollada por 
             Semilleros de Sentido, que integra los principios de la Logoterapia de Viktor Frankl 
             en el proceso de enseñanza-aprendizaje.
           </p>
@@ -25,7 +25,7 @@ const SilePage = () => {
 
         <section className="space-y-6 animate__animated animate__fadeInUp animate__delay-1s">
           <h2 className="text-4xl font-semibold text-[var(--main)]">
-            ¿Qué es el Método Silé?
+            ¿Qué es el Método SILEE?
           </h2>
           <p className="text-lg leading-relaxed text-gray-600">
             Su objetivo principal es acompañar a niños 
@@ -56,7 +56,7 @@ const SilePage = () => {
 
         <section className="space-y-10 animate__animated animate__fadeInUp animate__delay-3s">
           <h2 className="text-4xl font-semibold text-[var(--main)]">
-            Los Pilares de Silé
+            Los Pilares de SILEE
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -87,7 +87,7 @@ const SilePage = () => {
         <div className="relative animate__animated animate__fadeInUp animate__delay-4s">
           <div className="absolute inset-0 bg-cyan-50 -rotate-1 rounded-3xl" />
           <blockquote className="relative italic text-3xl text-gray-700 border-l-8 border-[var(--main)] pl-10 py-12 pr-10">
-            &quot;El Método Silé no solo educa la mente, sino que despierta el corazón hacia la búsqueda de aquello que hace que la vida valga la pena ser vivida.&quot;
+            &quot;El Método SILEE no solo educa la mente, sino que despierta el corazón hacia la búsqueda de aquello que hace que la vida valga la pena ser vivida.&quot;
           </blockquote>
         </div>
       </div>
@@ -95,4 +95,4 @@ const SilePage = () => {
   );
 };
 
-export default SilePage;
+export default SileePage;

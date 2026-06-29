@@ -1,4 +1,4 @@
-import logoTrazaurus from "../../../public/trazarus/trazaurus-logo.svg";
+import logoTrazaurus from "../../../public/trazaurus/trazaurus-logo.svg";
 import logoSilee from "../../../public/simply-logo-silee.svg";
 
 export const menu = [
@@ -29,6 +29,6 @@ export const menu = [
   { href: "/proyectos", label: "Proyectos" },
   { href: "/servicios", label: "Servicios" },
   { href: "/trazaurus", label: "Trazaurus", logo: logoTrazaurus },
-  { href: "/sile", label: "Silé", logo: logoSilee },
+  { href: "/silee", label: "SILEE", logo: logoSilee },
   { href: "/#contacto", label: "Contacto" },
 ];

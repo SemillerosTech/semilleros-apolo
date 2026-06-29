@@ -64,6 +64,6 @@ a {
 }
 
 .bg-trazaurusbanner {
-  background: transparent url("../../../public/trazarus/trazaurus-banner.svg")
+  background: transparent url("../../../public/trazaurus/trazaurus-banner.svg")
     scroll no-repeat center / cover;
 }

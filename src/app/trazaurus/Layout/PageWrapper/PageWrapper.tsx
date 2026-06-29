@@ -5,7 +5,7 @@ import FooterTrazaurus from "../Footer/FooterTrazaurus";
 import HeaderTrazaurus from "../Header/HeaderTrazaurus";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
-import donosaurs from "../../../../../public/trazarus/alphabeth-dinosaurs.jpg";
+import donosaurs from "../../../../../public/trazaurus/alphabeth-dinosaurs.jpg";
 
 interface LetterLayoutProps {
   children: ReactNode;

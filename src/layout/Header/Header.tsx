@@ -16,7 +16,7 @@ import {
   faYoutube,
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
-import logoTrazaurus from "../../../public/trazarus/trazaurus-logo.svg";
+import logoTrazaurus from "../../../public/trazaurus/trazaurus-logo.svg";
 import logoSilee from "../../../public/simply-logo-silee.svg";
 
 const Header = () => {
@@ -107,10 +107,10 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/sile">
+                <Link href="/silee">
                   <Image
                     src={logoSilee}
-                    alt="Silé"
+                    alt="SILEE"
                     height={35}
                     className="hover:scale-105 transition-transform duration-300"
                   />
