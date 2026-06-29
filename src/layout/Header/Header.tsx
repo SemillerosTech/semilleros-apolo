@@ -70,7 +70,6 @@ const Header = () => {
               <DropDown
                 label="Nosotros"
                 items={[
-                  { href: "/quienes-somos", label: "¿Quiénes sómos?" },
                   {
                     href: "/retos-educativos",
                     label: "Retos Educativos",
@@ -79,8 +78,6 @@ const Header = () => {
                     href: "/fundamentos-existenciales",
                     label: "Fundamentos existenciales",
                   },
-                  { href: "/alianzas", label: "Alianzas" },
-                  { href: "/red-frankl", label: "Red Frankl" },
                   {
                     href: "/rosa-adelaida/curriculum",
                     label: "Dra. Rosa Adelaida",
@@ -94,7 +91,6 @@ const Header = () => {
 
               <NavItem href="/logoterapia" label="Logoterapia" />
 
-              <NavItem href="/proyectos" label="Proyectos" />
               <NavItem href="/servicios" label="Servicios" />
               <li>
                 <Link href="/trazaurus">

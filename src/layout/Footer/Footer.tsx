@@ -21,8 +21,8 @@ const Footer = () => {
             alt="Menu principal"
             className="w-auto mx-auto mb-5"
           />
-          <p>55 3017 9924</p>
-          <p>rossy@semillerosdesentido.org</p>
+          <p className="text-sm md:text-base">55 3017 9924</p>
+          <p className="text-sm md:text-base">rossy@semillerosdesentido.org</p>
 
           <div className="flex gap-4 w-fit mx-auto mt-5">
             <a

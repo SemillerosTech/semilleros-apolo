@@ -13,7 +13,7 @@ const page = () => {
     <SubModuleLayout sectionTitle="Beneficios" bannerImg={brochure}>
       <section
         id="quienes-somos"
-        className="container mx-auto text-center py-20 px-10 relative z-0 "
+        className="container mx-auto text-center py-20 px-5 md:px-10 relative z-0 "
       >
         {/* QUIENES SOMOS */}
         <div id="quienes-somos">
@@ -117,7 +117,7 @@ const page = () => {
         />
         <h2 className=" mt-3">FASES DEL PROGRAMA</h2>
 
-        <h3 className="text-4xl mb-20">
+        <h3 className="text-2xl md:text-4xl mb-20">
           Etapas del Programa de Apoyo Socioemocional en el Aula
         </h3>
 
@@ -128,7 +128,7 @@ const page = () => {
             className="w-full md:w-2/6"
           />
 
-          <ol className="w-5/6 md:w-1/2 text-left list-decimal marker:text-main ml-5 md:ml-20  text-2xl mt-10 md:mt-auto">
+          <ol className="w-5/6 md:w-1/2 text-left list-decimal marker:text-main ml-5 md:ml-20  text-base md:text-2xl mt-10 md:mt-auto">
             <li className="mb-20">
               {" "}
               <b> Conferencia de apertura:</b> Presentación de conceptos clave

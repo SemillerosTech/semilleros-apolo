@@ -256,7 +256,7 @@ export default function Home() {
       </section>
 
       <section className="bg-main text-white text-center p-5 ">
-        <h3 className="text-5xl drop-shadow-md">
+        <h3 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl drop-shadow-md">
           CONTAMOS CON EL APOYO DE EMPRESAS QUE EMPATIZAN CON LA CAUSA{" "}
         </h3>
       </section>

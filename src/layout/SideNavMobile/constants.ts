@@ -7,7 +7,6 @@ export const menu = [
     href: "#",
     label: "Nosotros",
     submodules: [
-      { href: "/quienes-somos", label: "¿Quiénes sómos?" },
       {
         href: "/retos-educativos",
         label: "Retos Educativos",
@@ -16,8 +15,6 @@ export const menu = [
         href: "/fundamentos-existenciales",
         label: "Fundamentos existenciales",
       },
-      { href: "/alianzas", label: "Alianzas" },
-      { href: "/red-frankl", label: "Red Frankl" },
       {
         href: "/rosa-adelaida/curriculum",
         label: "Dra. Rosa Adelaida",
@@ -26,7 +23,6 @@ export const menu = [
     ],
   },
   { href: "/logoterapia", label: "Logoterapia" },
-  { href: "/proyectos", label: "Proyectos" },
   { href: "/servicios", label: "Servicios" },
   { href: "/trazaurus", label: "Trazaurus", logo: logoTrazaurus },
   { href: "/silee", label: "SILEE", logo: logoSilee },

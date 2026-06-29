@@ -12,8 +12,8 @@ const page = () => {
       <HeaderRosa />
       <Jumbotron />
 
-      <section className="container mx-auto flex py-10 gap-8">
-        <div className="w-2/12">
+      <section className="container mx-auto flex flex-col md:flex-row py-10 gap-8">
+        <div className="w-full md:w-2/12">
           <div className="sticky top-24">
             <Image src={acorns} alt="Rosa Adelaida " className="w-full" />
             <Image
@@ -28,7 +28,7 @@ const page = () => {
             />
           </div>
         </div>
-        <div className="w-10/12">
+        <div className="w-full md:w-10/12">
           <ul className="mb-10">
             <li>
               <strong>Licenciada en Psicología</strong> por la UNAM FES

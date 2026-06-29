@@ -26,7 +26,7 @@ const page = () => {
       <section className="flex flex-col lg:flex-row container mx-auto py-10">
         <div className="w-full lg:w-3/12 p-4 hidden lg:block">
           <div className="sticky top-28">
-            <h2 className="text-5xl mb-5">Contenido</h2>
+            <h2 className="text-3xl md:text-5xl mb-5">Contenido</h2>
 
             <ul>
               <li className="p-2 hover:border-l-8 hover:border-main transition all cursor-pointer">
@@ -52,7 +52,7 @@ const page = () => {
         </div>
 
         <div className="w-full lg:w-6/12 p-4">
-          <h2 className="text-5xl mb-4">Prof. Rosa Adelaida del Valle</h2>
+          <h2 className="text-3xl md:text-5xl mb-4">Prof. Rosa Adelaida del Valle</h2>
 
           <p className="mb-4">
             Psicóloga clínica desde hace 28 años en su consultorio particular
@@ -64,7 +64,7 @@ const page = () => {
 
           <hr className="my-5" />
 
-          <h2 className="text-5xl mb-4">Ultimas Noticias</h2>
+          <h2 className="text-3xl md:text-5xl mb-4">Ultimas Noticias</h2>
 
           <article className="mb-4">
             <a
@@ -164,7 +164,7 @@ const page = () => {
         </div>
 
         <div className="w-full lg:w-3/12 p-4">
-          <h2 className="text-5xl mb-3">Travesía del sentido</h2>
+          <h2 className="text-3xl md:text-5xl mb-3">Travesía del sentido</h2>
 
           <article>
             <div className="border-l-8 pl-3 py-2 border-main ">

@@ -8,11 +8,11 @@ const page = () => {
       sectionTitle="Fundamentos existenciales"
       bannerImg={fundamentosExistenciales}
     >
-      <section className="space-y-10">
+      <section className="space-y-10 px-5 md:px-0">
         <h2 className="font-semibold">Nuestos fundamentos existenciales</h2>
 
         <article>
-          <h2 className="text-4xl font-semibold mb-3">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-3">
             Todo niño y adolescente tiene un potencial espiritual intacto que
             puede ser cultivado
           </h2>
@@ -30,7 +30,7 @@ const page = () => {
         </article>
 
         <article>
-          <h2 className="text-4xl font-semibold mb-3">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-3">
             La búsqueda de sentido es natural en todas las edades, no solo en
             adultos
           </h2>
@@ -47,7 +47,7 @@ const page = () => {
         </article>
 
         <article>
-          <h2 className="text-4xl font-semibold mb-3">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-3">
             Los niños no son &quot;adultos incompletos&quot; sino seres plenos
             con capacidad de encontrar propósito
           </h2>
@@ -66,7 +66,7 @@ const page = () => {
         </article>
 
         <article>
-          <h2 className="text-4xl font-semibold mb-3">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-3">
             La logoterapia ofrece herramientas concretas para que ellos
             descubran su propio sentido
           </h2>

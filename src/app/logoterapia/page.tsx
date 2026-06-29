@@ -10,12 +10,12 @@ const page = () => {
       flip={true}
     >
       <div className="p-6 space-y-10">
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-3xl md:text-5xl font-bold">
           Fundamentos: Logoterapia para niños y adolescentes
         </h1>
 
         <div>
-          <h2 className="text-4xl font-semibold">
+          <h2 className="text-2xl md:text-4xl font-semibold">
             ¿Qué es la logoterapia?: Explicación sencilla pero profunda.
           </h2>
           <p className="mb-4">
@@ -32,7 +32,7 @@ const page = () => {
         </div>
 
         <div>
-          <h2 className="text-4xl font-semibold">
+          <h2 className="text-2xl md:text-4xl font-semibold">
             ¿Por qué es especialmente valiosa para niños y adolescentes?
           </h2>
           <p className="mb-4">
@@ -49,7 +49,7 @@ const page = () => {
         </div>
 
         <div>
-          <h2 className="text-4xl font-semibold">El legado de Viktor Frankl</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold">El legado de Viktor Frankl</h2>
           <p className="mb-4">
             Frankl introdujo la idea de que la dimensión espiritual del ser
             humano es libre e inmortal. Esta parte de nosotros permanece
@@ -65,7 +65,7 @@ const page = () => {
         </div>
 
         <div>
-          <h2 className="text-4xl font-semibold">Los tres pilares</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold">Los tres pilares</h2>
           <p className="mb-4">
             La logoterapia se fundamenta en tres pilares esenciales que pueden
             adaptarse a la realidad infantil y adolescente: la libertad con

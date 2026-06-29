@@ -54,7 +54,7 @@ const Page: React.FC = () => {
       <Header />
       <main className="container mx-auto py-10 relative">
         <div className="flex items-center pb-5 sticky top-0">
-          <h3 className="text-3xl font-bold">
+          <h3 className="text-xl md:text-3xl font-bold">
             Panel de control / Suscriptores
           </h3>
 

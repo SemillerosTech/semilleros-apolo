@@ -22,7 +22,7 @@ const page = () => {
           </section>
 
           <section>
-            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
+            <h2 className="text-[var(--secondary)] mb-3 text-2xl md:text-4xl font-semibold">
               Psicoterapia individual y familiar
             </h2>
 
@@ -38,7 +38,7 @@ const page = () => {
           </section>
 
           <section>
-            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
+            <h2 className="text-[var(--secondary)] mb-3 text-2xl md:text-4xl font-semibold">
               Talleres para alumnos
             </h2>
 
@@ -51,7 +51,7 @@ const page = () => {
           </section>
 
           <section>
-            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
+            <h2 className="text-[var(--secondary)] mb-3 text-2xl md:text-4xl font-semibold">
               Talleres para padres
             </h2>
 
@@ -64,7 +64,7 @@ const page = () => {
           </section>
 
           <section>
-            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
+            <h2 className="text-[var(--secondary)] mb-3 text-2xl md:text-4xl font-semibold">
               Capacitación para docentes
             </h2>
 
@@ -77,7 +77,7 @@ const page = () => {
           </section>
 
           <section>
-            <h2 className="text-[var(--secondary)] mb-3 text-4xl font-semibold">
+            <h2 className="text-[var(--secondary)] mb-3 text-2xl md:text-4xl font-semibold">
               Evaluación y seguimiento
             </h2>
 

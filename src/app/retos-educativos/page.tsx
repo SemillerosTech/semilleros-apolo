@@ -8,7 +8,7 @@ const page = () => {
       sectionTitle="Retos Educativos"
       bannerImg={retosEducativos}
     >
-      <section className="space-y-10">
+      <section className="space-y-10 px-5 md:px-0">
         <h2 className="font-semibold">
           Los Cuatro Retos Educativos que Abordamos
         </h2>
@@ -20,7 +20,7 @@ const page = () => {
         </p>
 
         <article>
-          <h2 className="text-4xl font-semibold mb-3">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-3">
             1. Prevención del suicidio infantil y adolescente
           </h2>
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
@@ -42,7 +42,7 @@ const page = () => {
         </article>
 
         <article>
-          <h2 className="text-4xl font-semibold mb-3">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-3">
             2. Prevención de conductas autodestructivas
           </h2>
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
@@ -59,7 +59,7 @@ const page = () => {
         </article>
 
         <article>
-          <h2 className="text-4xl font-semibold mb-3">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-3">
             3. Disminución de la violencia
           </h2>
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
@@ -77,7 +77,7 @@ const page = () => {
         </article>
 
         <article>
-          <h2 className="text-4xl font-semibold mb-3">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-3">
             4. Prevención de la depresión y ansiedad
           </h2>
           <blockquote className="italic text-gray-600 mb-4 border-l-4 border-blue-400 pl-4">
